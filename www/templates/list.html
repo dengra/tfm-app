@@ -1,0 +1,54 @@
+<ion-view view-title="Learning Content">
+
+  <ion-nav-buttons side="primary">
+    <button
+      class="button button-icon ion-minus-circled"
+      ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
+    </button>
+  </ion-nav-buttons>
+
+  <ion-nav-buttons side="secondary">
+    <button
+      class="button button-icon ion-navicon"
+      ng-click="data.showReorder = !data.showReorder; data.showDelete = false;">
+    </button>
+  </ion-nav-buttons>
+
+  <div class="bar bar-subheader
+    item-input-inset bar-light">
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" ng-model="query" placeholder="Search">
+    </label>
+  </div>
+
+  <ion-content
+    class="has-subheader">
+    <ion-refresher on-refresh="doRefresh()">
+    </ion-refresher>
+
+    <!--List showing Learning Modules-->
+    <ion-list
+      show-delete="data.showDelete"
+      show-reorder="data.showReorder">
+
+
+      <ion-item ng-class="{'star': item.star}"
+                ng-repeat='item in modules | filter: query'
+                class="item-thumbnail-right item-icon-right
+                  item-text-wrap" href="#/tab/list/{{item.shortname}}">
+        <img ng-src="img/{{item.level}}_tn.png" alt="{{ item.level }}">
+
+        <h2>{{item.title}}</h2>
+        <p>{{item.description}}</p>
+        <p>{{item.level | uppercase | limitTo: 100}}
+          {{ item.bio.length > 150 ? '&hellip;' : '' }}</p>
+
+
+      </ion-item>
+    </ion-list>
+
+    <!--List showing Artists-->
+  </ion-content>
+
+  </ion-view>

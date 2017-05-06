@@ -1,0 +1,25 @@
+<ion-header-bar class="bar-positive">
+  <h2 class="title">More Info</h2>
+</ion-header-bar>
+
+<ion-view>
+  <ion-content>
+    <ion-list class="list-inset">
+      <ion-item class="item-text-wrap"
+        ng-repeat="item in modules | filter: { shortname: whichcamera }">
+
+
+
+          <h2>{{ item.title }}</h2>
+        <img ng-src="img/{{item.level}}_tn.png"
+                                         alt="{{ item.title }} {{item.level | uppercase}}" style="max-height: 50px">
+          <h3>{{ item.description }}</h3>
+          <p>{{ item.steps }}</p>
+        <button class="button button-block button-positive ion-ios-world-outline">
+          360° View
+        </button>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

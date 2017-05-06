@@ -1,0 +1,60 @@
+<ion-view view-title="Learning Map">
+
+  <div class="bar bar-subheader
+    item-input-inset bar-light">
+    Choose your camera:        <label class="item-input-wrapper">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="query" placeholder="Search">
+        </label>
+
+  </div>
+
+  <!--Nested Loop in JavaScript Way-->
+  <!--
+      <div ng-repeat="model in temparray">
+        <div>model.shortname</div>
+        <div>model.relevantmodel</div>
+      </div>
+  -->
+
+  <ion-content class="has-subheader">
+      <ion-list>
+        <ion-radio ng-model="choice"
+                   ng-repeat="camera in cameras"
+                   ng-value="{{camera.shortname}}"
+                   ng-show="camera.format == 'DX' ">
+          {{camera.shortname }}
+        </ion-radio>
+      </ion-list>
+
+    <ion-refresher on-refresh="doRefresh()">
+    </ion-refresher>
+
+
+    <!--List showing Learning Modules-->
+    <ion-list
+      show-delete="data.showDelete"
+      show-reorder="data.showReorder">
+
+
+      <ion-item ng-class="{'star': item.star}"
+                ng-repeat='module in modules'
+                ng-value="module.aId"
+                class="item-thumbnail-right item-icon-right
+                  item-text-wrap"
+                href="#/tab/list/{{module.shortname}}">
+        <img ng-src="img/{{module.level}}_tn.png" alt="{{ module.level }}">
+
+        <h2>{{module.title}}</h2>
+        <p>{{module.description}}</p>
+        <p>{{module.level | uppercase | limitTo: 100}}
+          {{ module.bio.length > 150 ? '&hellip;' : '' }}</p>
+
+
+      </ion-item>
+    </ion-list>
+
+    <!--List showing Artists-->
+  </ion-content>
+
+</ion-view>
