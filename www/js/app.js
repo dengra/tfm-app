@@ -5,7 +5,11 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic', 'ionicitude-module'])
 
-.run(function($ionicPlatform, $cordovaSplashscreen, Ionicitude) {
+.run(function($ionicPlatform, Ionicitude) {
+  $ionicPlatform.registerBackButtonAction(function(e){
+    e.preventDefault();
+  }, 1000);
+
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -14,11 +18,6 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
     }
     if(window.StatusBar) {
       StatusBar.styleDefault();
-    }
-
-
-    if($cordovaSplashscreen) {
-      $cordovaSplashscreen.hide();
     }
 
 
@@ -43,6 +42,8 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
 
 
   });
+
+
 
 })
 
@@ -97,7 +98,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
         }
       }
     })
-
+/*
     .state('tabs.360View', {
       url: '/360View',
       views: {
@@ -107,6 +108,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
         }
       }
     })
+    */
     .state('tabs.about', {
       url: '/about',
       views: {
