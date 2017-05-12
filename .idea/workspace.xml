@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
+    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="360View opens now">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/cameras-tracker.wtc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car_animated.wt3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/product_d5200_transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/rotateButton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/htmldrawable_new.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/agenda.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/cars-tracker.wtc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/wwwButton.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ARUA.iml" afterPath="$PROJECT_DIR$/.idea/ARUA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,20 +56,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
+                <state relative-caret-position="1360">
                   <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
                   <folding>
                     <element signature="e#147#1081#0" expanded="false" />
@@ -72,7 +78,7 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/js/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-362">
+                <state relative-caret-position="3179">
                   <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
                   <folding>
                     <element signature="e#11580#12379#0" expanded="false" />
@@ -87,38 +93,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="360View.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#147#1081#0" expanded="false" />
-                    <element signature="e#1488#1902#0" expanded="false" />
-                    <element signature="e#2113#2358#0" expanded="false" />
-                    <element signature="e#2543#5162#0" expanded="false" />
-                    <element signature="e#6215#6709#0" expanded="false" />
-                    <marker date="1494589189555" expanded="true" signature="7246:7251" ph="..." />
-                    <marker date="1494589189555" expanded="true" signature="7274:7279" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="imagerecognitionand3d_360View.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2006">
-                  <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="imagerecognitionand3d.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1615">
+                <state relative-caret-position="272">
                   <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
                   <folding />
                 </state>
@@ -148,7 +126,7 @@
           <file leaf-file-name="htmldrawable_new.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3054">
+                <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
                     <element signature="e#2535#5154#0" expanded="false" />
@@ -284,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,36 +355,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARUA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARUA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitude-worlds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="360View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,7 +461,8 @@
       <workItem from="1494230999159" duration="2344000" />
       <workItem from="1494580136562" duration="3222000" />
       <workItem from="1494583703424" duration="4216000" />
-      <workItem from="1494588689473" duration="12549000" />
+      <workItem from="1494588689473" duration="12918000" />
+      <workItem from="1494617000526" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="ar view opens">
       <created>1494103008720</created>
@@ -525,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494616454928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="360View opens now">
+      <created>1494616615552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494616615552</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31934000" />
+    <option name="totallyTimeSpent" value="32335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -538,19 +498,19 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17966281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48998946" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2909699" sideWeight="0.77397263" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -652,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="135" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,25 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#147#1081#0" expanded="false" />
-            <element signature="e#1255#1407#0" expanded="false" />
-            <element signature="e#1480#1894#0" expanded="false" />
-            <element signature="e#2535#5154#0" expanded="false" />
-            <element signature="e#5626#5866#0" expanded="false" />
-            <element signature="e#6193#6416#0" expanded="false" />
-            <element signature="e#6534#6580#0" expanded="false" />
-            <element signature="e#6739#7191#0" expanded="false" />
-            <element signature="e#7197#7469#0" expanded="false" />
-            <element signature="e#7476#7722#0" expanded="false" />
-            <element signature="e#8025#8248#0" expanded="false" />
-            <element signature="e#8571#9023#0" expanded="false" />
-            <element signature="e#9029#9301#0" expanded="false" />
-            <element signature="e#9875#10369#0" expanded="false" />
-            <element signature="e#10412#11304#0" expanded="false" />
-            <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
-            <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,12 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="e#1260#1412#0" expanded="false" />
-            <element signature="e#2540#5159#0" expanded="false" />
-            <marker date="1494581249827" expanded="true" signature="7229:7234" ph="..." />
-            <marker date="1494581249827" expanded="true" signature="7257:7262" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
+        <state relative-caret-position="3179">
           <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
           <folding>
             <element signature="e#11580#12379#0" expanded="false" />
@@ -928,15 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="e#147#1081#0" expanded="false" />
-            <element signature="e#1485#1899#0" expanded="false" />
-            <element signature="e#2110#2355#0" expanded="false" />
-            <element signature="e#2540#5159#0" expanded="false" />
-            <element signature="e#6204#6545#0" expanded="false" />
-            <marker date="1494581888793" expanded="true" signature="7229:7234" ph="..." />
-            <marker date="1494581888793" expanded="true" signature="7257:7262" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3054">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#2535#5154#0" expanded="false" />
@@ -964,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="1360">
           <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
             <element signature="e#147#1081#0" expanded="false" />
@@ -983,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,15 +916,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#147#1081#0" expanded="false" />
-            <element signature="e#1488#1902#0" expanded="false" />
-            <element signature="e#2113#2358#0" expanded="false" />
-            <element signature="e#2543#5162#0" expanded="false" />
-            <element signature="e#6215#6709#0" expanded="false" />
-            <marker date="1494589189555" expanded="true" signature="7246:7251" ph="..." />
-            <marker date="1494589189555" expanded="true" signature="7274:7279" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,21 +940,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js" />
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
+        <state relative-caret-position="272">
           <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
           <folding />
         </state>
