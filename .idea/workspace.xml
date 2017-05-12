@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="360View opens now">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/car_animated.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/rotateButton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car_animated.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/rotateButton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/cars-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/wwwButton.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/assets/cars-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/htmldrawable_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/agenda.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/cars-htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/ade.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/360View.html" afterPath="$PROJECT_DIR$/www/templates/360View.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/detail_v1.html" afterPath="$PROJECT_DIR$/www/templates/detail_v0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/data.json" afterPath="$PROJECT_DIR$/www/js/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/detail.html" afterPath="$PROJECT_DIR$/www/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,118 +58,190 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ARUA" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WikitudePlugin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikitudePlugin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2750">
-              <caret line="132" column="41" lean-forward="false" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
-              <folding>
-                <element signature="e#3271#3484#0" expanded="false" />
-                <element signature="e#3535#4216#0" expanded="false" />
-                <element signature="e#4248#5263#0" expanded="false" />
-                <element signature="e#6271#6879#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="360View.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/360View.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6700379">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#147#1081#0" expanded="false" />
+                    <element signature="e#1263#1415#0" expanded="false" />
+                    <element signature="e#1488#1902#0" expanded="false" />
+                    <element signature="e#2113#2358#0" expanded="false" />
+                    <element signature="e#2542#5161#0" expanded="false" />
+                    <element signature="e#5640#5880#0" expanded="false" />
+                    <element signature="e#6220#6561#0" expanded="false" />
+                    <marker date="1494589214713" expanded="true" signature="7357:7373" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/js/data.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#11580#12379#0" expanded="false" />
+                    <element signature="e#12578#12924#0" expanded="false" />
+                    <element signature="e#13425#13941#0" expanded="false" />
+                    <element signature="e#13947#14518#0" expanded="false" />
+                    <element signature="e#14524#15060#0" expanded="false" />
+                    <element signature="e#15066#15617#0" expanded="false" />
+                    <element signature="e#15623#16205#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="360View.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#147#1081#0" expanded="false" />
+                    <element signature="e#1488#1902#0" expanded="false" />
+                    <element signature="e#2113#2358#0" expanded="false" />
+                    <element signature="e#2543#5162#0" expanded="false" />
+                    <element signature="e#6215#6709#0" expanded="false" />
+                    <marker date="1494589189555" expanded="true" signature="7246:7251" ph="..." />
+                    <marker date="1494589189555" expanded="true" signature="7274:7279" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="imagerecognitionand3d_360View.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2278">
+                  <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="imagerecognitionand3d.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1564">
+                  <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="98" lean-forward="false" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="htmldrawable_new.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3054">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#2535#5154#0" expanded="false" />
+                    <element signature="e#8571#9023#0" expanded="false" />
+                    <element signature="e#9029#9301#0" expanded="false" />
+                    <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
+                    <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="13" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#3306#3519#0" expanded="false" />
+                    <element signature="e#3570#4251#0" expanded="false" />
+                    <element signature="e#4283#5298#0" expanded="false" />
+                    <element signature="e#6306#6914#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+                  <folding>
+                    <element signature="n#style#0;n#img#0;n#h1#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -138,6 +249,11 @@
       <find>view</find>
       <find>view-</find>
       <find>360</find>
+      <find>product</find>
+      <find>technicalInfoWidget</find>
+      <find>*</find>
+      <find>.loaded</find>
+      <find>tracker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,8 +267,24 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/www/360View.html" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/htmldrawable_new.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/cars-htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartCamerasView/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartCamerasView/js/cameras-htmldrawable.js" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html" />
+        <option value="$PROJECT_DIR$/www/js/data.json" />
+        <option value="$PROJECT_DIR$/www/templates/detail.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/360View.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d_360View.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js" />
       </list>
     </option>
   </component>
@@ -171,10 +303,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,6 +350,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D5200_getting-started" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D5200_getting-started" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="360View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="360View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="360View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -227,7 +499,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wikitude-cordova-plugin-samples-master/wikitude-cordova-plugin-samples-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -235,8 +507,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\D056256\Documents\Lynda Tutorials\untitled3\ARUA\www\js" />
-      <recent name="C:\Users\D056256\Documents\Lynda Tutorials\untitled3\ARUA\www" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View\assets" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View\js" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200_getting-started\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200_getting-started\assets" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -271,6 +550,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -307,32 +592,46 @@
       <workItem from="1494094497670" duration="14000" />
       <workItem from="1494094557492" duration="7938000" />
       <workItem from="1494102567333" duration="71000" />
-      <workItem from="1494102757005" duration="244000" />
+      <workItem from="1494102757005" duration="1568000" />
+      <workItem from="1494104542180" duration="12000" />
+      <workItem from="1494230999159" duration="2344000" />
+      <workItem from="1494580136562" duration="3222000" />
+      <workItem from="1494583703424" duration="4216000" />
+      <workItem from="1494588689473" duration="12385000" />
     </task>
+    <task id="LOCAL-00001" summary="ar view opens">
+      <created>1494103008720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494103008720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8267000" />
+    <option name="totallyTimeSpent" value="31770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17966281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.50396615" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49603385" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48998946" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5164706" sideWeight="0.489688" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2909699" sideWeight="0.77397263" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -340,16 +639,35 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ar view opens" />
-    <option name="LAST_COMMIT_MESSAGE" value="ar view opens" />
+    <MESSAGE value="360View opens now" />
+    <option name="LAST_COMMIT_MESSAGE" value="360View opens now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -358,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -374,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,10 +698,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3271#3484#0" expanded="false" />
-            <element signature="e#3535#4216#0" expanded="false" />
-            <element signature="e#4248#5263#0" expanded="false" />
-            <element signature="e#6271#6879#0" expanded="false" />
+            <element signature="e#3306#3519#0" expanded="false" />
+            <element signature="e#3570#4251#0" expanded="false" />
+            <element signature="e#4283#5298#0" expanded="false" />
+            <element signature="e#6306#6914#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -395,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,7 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/360View.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
@@ -435,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,10 +778,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3271#3484#0" expanded="false" />
-            <element signature="e#3535#4216#0" expanded="false" />
-            <element signature="e#4248#5263#0" expanded="false" />
-            <element signature="e#6271#6879#0" expanded="false" />
+            <element signature="e#3306#3519#0" expanded="false" />
+            <element signature="e#3570#4251#0" expanded="false" />
+            <element signature="e#4283#5298#0" expanded="false" />
+            <element signature="e#6306#6914#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/360View.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="135" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
@@ -520,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,22 +843,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="2759" column="22" lean-forward="false" selection-start-line="2759" selection-start-column="22" selection-end-line="2759" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745552">
+          <caret line="43861" column="8" lean-forward="false" selection-start-line="43861" selection-start-column="8" selection-end-line="43861" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="323">
           <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/htmldrawable_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#147#1081#0" expanded="false" />
+            <element signature="e#1255#1407#0" expanded="false" />
+            <element signature="e#1480#1894#0" expanded="false" />
+            <element signature="e#2535#5154#0" expanded="false" />
+            <element signature="e#5626#5866#0" expanded="false" />
+            <element signature="e#6193#6416#0" expanded="false" />
+            <element signature="e#6534#6580#0" expanded="false" />
+            <element signature="e#6739#7191#0" expanded="false" />
+            <element signature="e#7197#7469#0" expanded="false" />
+            <element signature="e#7476#7722#0" expanded="false" />
+            <element signature="e#8025#8248#0" expanded="false" />
+            <element signature="e#8571#9023#0" expanded="false" />
+            <element signature="e#9029#9301#0" expanded="false" />
+            <element signature="e#9875#10369#0" expanded="false" />
+            <element signature="e#10412#11304#0" expanded="false" />
+            <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
+            <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/cars-htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <element signature="e#1260#1412#0" expanded="false" />
+            <element signature="e#2540#5159#0" expanded="false" />
+            <marker date="1494581249827" expanded="true" signature="7229:7234" ph="..." />
+            <marker date="1494581249827" expanded="true" signature="7257:7262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -564,48 +958,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/360View.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="132" column="41" lean-forward="false" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#3271#3484#0" expanded="false" />
-            <element signature="e#3535#4216#0" expanded="false" />
-            <element signature="e#4248#5263#0" expanded="false" />
-            <element signature="e#6271#6879#0" expanded="false" />
+            <element signature="e#3306#3519#0" expanded="false" />
+            <element signature="e#3570#4251#0" expanded="false" />
+            <element signature="e#4283#5298#0" expanded="false" />
+            <element signature="e#6306#6914#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
+          <folding>
+            <element signature="e#11580#12379#0" expanded="false" />
+            <element signature="e#12578#12924#0" expanded="false" />
+            <element signature="e#13425#13941#0" expanded="false" />
+            <element signature="e#13947#14518#0" expanded="false" />
+            <element signature="e#14524#15060#0" expanded="false" />
+            <element signature="e#15066#15617#0" expanded="false" />
+            <element signature="e#15623#16205#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
+          <folding>
+            <element signature="e#147#1081#0" expanded="false" />
+            <element signature="e#1485#1899#0" expanded="false" />
+            <element signature="e#2110#2355#0" expanded="false" />
+            <element signature="e#2540#5159#0" expanded="false" />
+            <element signature="e#6204#6545#0" expanded="false" />
+            <marker date="1494581888793" expanded="true" signature="7229:7234" ph="..." />
+            <marker date="1494581888793" expanded="true" signature="7257:7262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3054">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2535#5154#0" expanded="false" />
+            <element signature="e#8571#9023#0" expanded="false" />
+            <element signature="e#9029#9301#0" expanded="false" />
+            <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
+            <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="e#147#1081#0" expanded="false" />
+            <element signature="e#1263#1415#0" expanded="false" />
+            <element signature="e#1488#1902#0" expanded="false" />
+            <element signature="e#2113#2358#0" expanded="false" />
+            <element signature="e#2542#5161#0" expanded="false" />
+            <element signature="e#5640#5880#0" expanded="false" />
+            <element signature="e#6220#6561#0" expanded="false" />
+            <marker date="1494589214713" expanded="true" signature="7357:7373" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="e#147#1081#0" expanded="false" />
+            <element signature="e#1488#1902#0" expanded="false" />
+            <element signature="e#2113#2358#0" expanded="false" />
+            <element signature="e#2543#5162#0" expanded="false" />
+            <element signature="e#6215#6709#0" expanded="false" />
+            <marker date="1494589189555" expanded="true" signature="7246:7251" ph="..." />
+            <marker date="1494589189555" expanded="true" signature="7274:7279" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1564">
+          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="98" lean-forward="false" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>

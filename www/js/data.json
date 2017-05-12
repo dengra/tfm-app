@@ -216,8 +216,8 @@
   ],
   "modules": [
     {
-      "level": "beginner",
       "title": "Get Started",
+      "level": "beginner",
       "shortname": "get_started",
       "relevantmodels": [
         "D3200",
@@ -244,10 +244,11 @@
       "steps": [
         "Insert the battery",
         "Insert the SD Card",
-        "Turn on the camera"
+        "Turn on the camera",
+        "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "get_started",
+        "URL": "D5200_getting-started",
         "needs": [
           {
             "camera": "front"
@@ -259,20 +260,15 @@
       }
     },
     {
-      "level": "beginner",
       "title": "Shoot your first picture",
+      "level": "beginner",
       "shortname": "first_pic",
       "description": "Shoot an amazing first picture!",
       "steps": [
-        {
-          "step": "Insert the battery"
-        },
-        {
-          "step": "Insert the SD Card"
-        },
-        {
-          "step": "Turn on the camera"
-        }
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
       ],
       "ARView": {
         "URL": "first_pic",
@@ -287,20 +283,15 @@
       }
     },
     {
-      "level": "beginner",
       "title": "Main components of my camera",
+      "level": "beginner",
       "shortname": "Main_components",
       "description": "Learn where to find the most important parts of your camera and what they do",
       "steps": [
-        {
-          "step": "Insert the battery"
-        },
-        {
-          "step": "Insert the SD Card"
-        },
-        {
-          "step": "Turn on the camera"
-        }
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
       ],
       "ARView": {
         "URL": "first_pic",
@@ -315,48 +306,15 @@
       }
     },
     {
-      "level": "intermediate",
       "title": "Improve your Skills",
-      "shortname": "first_intermediate_task",
-      "description": "Random Intermediate Task",
-      "steps": [
-        {
-          "step": "Insert the battery"
-        },
-        {
-          "step": "Insert the SD Card"
-        },
-        {
-          "step": "Turn on the camera"
-        }
-      ],
-      "ARView": {
-        "URL": "first_intermediate_task",
-        "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
-        ]
-      }
-    },
-    {
       "level": "intermediate",
-      "title": "Shoot a picture in 'Aperture Mode'",
       "shortname": "first_intermediate_task",
       "description": "Random Intermediate Task",
       "steps": [
-        {
-          "step": "Insert the battery"
-        },
-        {
-          "step": "Insert the SD Card"
-        },
-        {
-          "step": "Turn on the camera"
-        }
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
       ],
       "ARView": {
         "URL": "first_intermediate_task",
@@ -371,8 +329,31 @@
       }
     },
     {
-      "level": "advanced",
+      "title": "Shoot a picture in 'Aperture Mode'",
+      "level": "intermediate",
+      "shortname": "first_intermediate_task",
+      "description": "Random Intermediate Task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "first_intermediate_task",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
       "title": "Cool complicated task",
+      "level": "advanced",
       "shortname": "first_advanced_task",
       "description": "Random Intermediate Task",
       "steps": [

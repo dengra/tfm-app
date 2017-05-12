@@ -6,9 +6,12 @@
 angular.module('starter', ['ionic', 'ionicitude-module'])
 
 .run(function($ionicPlatform, Ionicitude) {
+/*
   $ionicPlatform.registerBackButtonAction(function(e){
     e.preventDefault();
-  }, 1000);
+    console.log('close prevented');
+  }, 100);
+*/
 
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -98,17 +101,15 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
         }
       }
     })
-/*
     .state('tabs.360View', {
       url: '/360View',
       views: {
         '360View-tab' : {
-//           templateUrl: '360View.html',
-//          controller: '360ViewController'
+          templateUrl: 'templates/360View.html',
+         controller: '360ViewController'
         }
       }
     })
-    */
     .state('tabs.about', {
       url: '/about',
       views: {
