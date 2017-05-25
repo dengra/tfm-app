@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="360View opens now">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/cameras-tracker.wtc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/car_animated.wt3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/product_d5200_transparent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/assets/rotateButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/htmldrawable_new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/agenda.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/cars-tracker.wtc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/assets/wwwButton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ARUA.iml" afterPath="$PROJECT_DIR$/.idea/ARUA.iml" />
+    <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/assets/d5200-tn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/assets/camera-test.wt3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/assets/cameras-tracker.wtc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/assets/product_d5200_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d_car.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-intermediate-task/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-intermediate-task/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/js/htmldrawable_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/js/htmldrawable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/js/htmldrawable_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/js/htmldrawable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/advanced_tn.png" afterPath="$PROJECT_DIR$/www/img/advanced-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/all_tn.png" afterPath="$PROJECT_DIR$/www/img/all-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/beginner_tn.png" afterPath="$PROJECT_DIR$/www/img/beginner-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/d3400_tn.jpg" afterPath="$PROJECT_DIR$/www/img/d3400-tn.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/d5200_tn.jpg" afterPath="$PROJECT_DIR$/www/img/d5200-tn.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/d7200_tn.jpg" afterPath="$PROJECT_DIR$/www/img/d7200-tn.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/intermediate_tn.png" afterPath="$PROJECT_DIR$/www/img/intermediate-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/camera-test.wt3" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/assets/camera-test.wt3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/cameras-tracker.wtc" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/assets/cameras-tracker.wtc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/assets/product_d5200_transparent.png" afterPath="$PROJECT_DIR$/www/wikitude-worlds/AR-assets/d5200-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css" afterPath="$PROJECT_DIR$/www/wikitude-worlds/AR-css/default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/js/htmldrawable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/js/htmldrawable_new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/data.json" afterPath="$PROJECT_DIR$/www/js/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/detail.html" afterPath="$PROJECT_DIR$/www/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/home.html" afterPath="$PROJECT_DIR$/www/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/list.html" afterPath="$PROJECT_DIR$/www/templates/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js" afterPath="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,128 +94,154 @@
     <favorites_list name="ARUA" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6700379">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1360">
-                  <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#147#1081#0" expanded="false" />
-                    <element signature="e#1263#1415#0" expanded="false" />
-                    <element signature="e#1488#1902#0" expanded="false" />
-                    <element signature="e#2113#2358#0" expanded="false" />
-                    <element signature="e#2542#5161#0" expanded="false" />
-                    <element signature="e#5640#5880#0" expanded="false" />
-                    <element signature="e#6220#6561#0" expanded="false" />
-                    <marker date="1494589214713" expanded="true" signature="7357:7373" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/js/data.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3179">
-                  <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#11580#12379#0" expanded="false" />
-                    <element signature="e#12578#12924#0" expanded="false" />
-                    <element signature="e#13425#13941#0" expanded="false" />
-                    <element signature="e#13947#14518#0" expanded="false" />
-                    <element signature="e#14524#15060#0" expanded="false" />
-                    <element signature="e#15066#15617#0" expanded="false" />
-                    <element signature="e#15623#16205#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="imagerecognitionand3d.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="98" lean-forward="false" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="htmldrawable_new.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#2535#5154#0" expanded="false" />
-                    <element signature="e#8571#9023#0" expanded="false" />
-                    <element signature="e#9029#9301#0" expanded="false" />
-                    <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
-                    <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.67945987">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/js/app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1241">
+                      <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+                      <folding>
+                        <element signature="e#366#1847#0" expanded="false" />
+                        <element signature="e#368#499#0" expanded="false" />
+                        <element signature="e#3300#3513#0" expanded="false" />
+                        <element signature="e#3564#4244#0" expanded="false" />
+                        <element signature="e#6327#6935#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="544">
+                      <caret line="67" column="56" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="56" />
+                      <folding>
+                        <element signature="e#236#1402#0" expanded="false" />
+                        <element signature="n#ul#0;n#ion-item#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="calendar_old.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/templates/calendar_old.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/www/templates/list.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="593">
+                      <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#495#767#0" expanded="false" />
+                        <element signature="e#1690#1694#0" expanded="true" />
+                        <element signature="e#1695#1702#0" expanded="true" />
+                        <element signature="e#1734#1741#0" expanded="true" />
+                        <element signature="e#1741#1745#0" expanded="true" />
+                        <element signature="e#2796#3400#0" expanded="false" />
+                        <element signature="e#4517#4525#0" expanded="true" />
+                        <element signature="n#ul#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="85">
+                      <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+                      <folding>
+                        <element signature="n#style#0;n#img#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/index.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="425">
+                      <caret line="25" column="149" lean-forward="false" selection-start-line="25" selection-start-column="149" selection-end-line="25" selection-end-column="149" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/css/style.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="952">
+                      <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/www/js/data.json">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="153">
+                      <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
+                      <folding>
+                        <element signature="e#16#6569#0" expanded="false" />
+                        <element signature="e#6584#11565#0" expanded="false" />
+                        <element signature="e#11580#12372#0" expanded="false" />
+                        <element signature="e#12592#12938#0" expanded="false" />
+                        <element signature="e#13080#13212#0" expanded="false" />
+                        <element signature="e#13439#13981#0" expanded="false" />
+                        <element signature="e#15681#16269#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/www/js/data.json">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="17">
+                      <caret line="296" column="7" lean-forward="false" selection-start-line="296" selection-start-column="7" selection-end-line="296" selection-end-column="7" />
+                      <folding>
+                        <element signature="e#16#6569#0" expanded="false" />
+                        <element signature="e#6584#11565#0" expanded="false" />
+                        <element signature="e#11580#12372#0" expanded="false" />
+                        <element signature="e#12592#12938#0" expanded="false" />
+                        <element signature="e#13080#13212#0" expanded="false" />
+                        <element signature="e#13439#13981#0" expanded="false" />
+                        <element signature="e#15681#16269#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/js/app.js">
+          <file leaf-file-name="htmldrawable.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/js/htmldrawable.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="17">
+                  <caret line="115" column="64" lean-forward="false" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
                   <folding>
-                    <element signature="e#3306#3519#0" expanded="false" />
-                    <element signature="e#3570#4251#0" expanded="false" />
-                    <element signature="e#4283#5298#0" expanded="false" />
-                    <element signature="e#6306#6914#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#h1#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+                    <marker date="1495532883134" expanded="true" signature="7357:7373" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -183,16 +260,48 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ready</find>
-      <find>view</find>
-      <find>view-</find>
-      <find>360</find>
-      <find>product</find>
-      <find>technicalInfoWidget</find>
-      <find>*</find>
-      <find>.loaded</find>
-      <find>tracker</find>
+      <find>hide</find>
+      <find>delete</find>
+      <find>icon</find>
+      <find>ion-dele</find>
+      <find>show-re</find>
+      <find>item&gt;</find>
+      <find>pane</find>
+      <find>item</find>
+      <find>png</find>
+      <find>splash</find>
+      <find>reorder</find>
+      <find>i.</find>
+      <find>i</find>
+      <find>starter</find>
+      <find>left</find>
+      <find>url</find>
+      <find>aId</find>
+      <find>Learning</find>
+      <find>camera</find>
+      <find>in</find>
+      <find>query</find>
+      <find>selectCamera</find>
+      <find>mId</find>
+      <find>whichmodule</find>
+      <find>select</find>
+      <find>list</find>
+      <find>D3300</find>
+      <find>href</find>
+      <find>my</find>
+      <find>title</find>
     </findStrings>
+    <replaceStrings>
+      <replace>D5200-</replace>
+      <replace>i</replace>
+      <replace>module</replace>
+      <replace>modules</replace>
+      <replace>camera</replace>
+      <replace>camera.</replace>
+      <replace>mId</replace>
+      <replace>selectCamera</replace>
+      <replace>step</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,10 +310,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/www/360View.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/htmldrawable_new.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/cars-htmldrawable.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/index.html" />
@@ -213,16 +320,36 @@
         <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartCamerasView/index.html" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/SmartCamerasView/js/cameras-htmldrawable.js" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html" />
-        <option value="$PROJECT_DIR$/www/js/data.json" />
-        <option value="$PROJECT_DIR$/www/templates/detail.html" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/360View.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d_360View.js" />
-        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js" />
         <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_main-components/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200_shoot-first-picture/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/360View/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/index.html" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/js/htmldrawable.js" />
+        <option value="$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/index.html" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/templates/home.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/data.json" />
+        <option value="$PROJECT_DIR$/www/templates/detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/list.html" />
       </list>
     </option>
   </component>
@@ -262,7 +389,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,7 +429,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wikitude-worlds" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,43 +447,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wikitude-worlds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="360View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARUA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ARUA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wikitude-worlds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="360View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,11 +468,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View\assets" />
-      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View" />
-      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\360View\js" />
       <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds" />
-      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200_getting-started\assets" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200-shoot-aperture-mode" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200-first-advanced-task\js" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200-first-advanced-task" />
+      <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\general-assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\D056256\OneDrive\Master-Thesis\Cordova_Projekt\ARUA\www\wikitude-worlds\D5200_getting-started\assets" />
@@ -462,7 +559,19 @@
       <workItem from="1494580136562" duration="3222000" />
       <workItem from="1494583703424" duration="4216000" />
       <workItem from="1494588689473" duration="12918000" />
-      <workItem from="1494617000526" duration="32000" />
+      <workItem from="1494617000526" duration="2172000" />
+      <workItem from="1494775519720" duration="4545000" />
+      <workItem from="1494791085504" duration="3629000" />
+      <workItem from="1494835938275" duration="1031000" />
+      <workItem from="1494860207976" duration="2854000" />
+      <workItem from="1494934030751" duration="627000" />
+      <workItem from="1495374102133" duration="1237000" />
+      <workItem from="1495465787619" duration="1488000" />
+      <workItem from="1495529856820" duration="2881000" />
+      <workItem from="1495532749953" duration="23664000" />
+      <workItem from="1495616504647" duration="23294000" />
+      <workItem from="1495701241420" duration="120000" />
+      <workItem from="1495704267541" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="ar view opens">
       <created>1494103008720</created>
@@ -485,23 +594,39 @@
       <option name="project" value="LOCAL" />
       <updated>1494616615552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test files deleted">
+      <created>1494617047073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494617047073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32335000" />
+    <option name="totallyTimeSpent" value="100547000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17966281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17544784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441473" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982143" sideWeight="0.26149303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48998946" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2909699" sideWeight="0.77397263" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12012645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.729097" sideWeight="0.738507" order="8" side_tool="false" content_ui="tabs" x="1932" y="38" width="1898" height="992" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
@@ -514,6 +639,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982143" sideWeight="0.26149303" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48998946" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20982143" sideWeight="0.738507" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16870518" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18135808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -542,241 +687,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ar view opens" />
     <MESSAGE value="360View opens now" />
-    <option name="LAST_COMMIT_MESSAGE" value="360View opens now" />
+    <MESSAGE value="test files deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="test files deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3306#3519#0" expanded="false" />
-            <element signature="e#3570#4251#0" expanded="false" />
-            <element signature="e#4283#5298#0" expanded="false" />
-            <element signature="e#6306#6914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3306#3519#0" expanded="false" />
-            <element signature="e#3570#4251#0" expanded="false" />
-            <element signature="e#4283#5298#0" expanded="false" />
-            <element signature="e#6306#6914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="135" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1439">
-          <caret line="2759" column="22" lean-forward="false" selection-start-line="2759" selection-start-column="22" selection-end-line="2759" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745552">
-          <caret line="43861" column="8" lean-forward="false" selection-start-line="43861" selection-start-column="8" selection-end-line="43861" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/360View.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="135" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/htmldrawable_new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/SmartPostersView/js/cars-htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -791,172 +711,321 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/index.html" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/js/htmldrawable_new.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#h1#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#3306#3519#0" expanded="false" />
-            <element signature="e#3570#4251#0" expanded="false" />
-            <element signature="e#4283#5298#0" expanded="false" />
-            <element signature="e#6306#6914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="250" column="8" lean-forward="false" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="38" />
-          <folding>
-            <element signature="e#11580#12379#0" expanded="false" />
-            <element signature="e#12578#12924#0" expanded="false" />
-            <element signature="e#13425#13941#0" expanded="false" />
-            <element signature="e#13947#14518#0" expanded="false" />
-            <element signature="e#14524#15060#0" expanded="false" />
-            <element signature="e#15066#15617#0" expanded="false" />
-            <element signature="e#15623#16205#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/InteractiveCarsView/js/cars-htmldrawable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js" />
     <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable_new.js">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/js/htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2535#5154#0" expanded="false" />
-            <element signature="e#8571#9023#0" expanded="false" />
-            <element signature="e#9029#9301#0" expanded="false" />
-            <marker date="1493998964485" expanded="true" signature="10906:10911" ph="..." />
-            <marker date="1493998964485" expanded="true" signature="10934:10939" ph="..." />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/js/htmldrawable.js">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/css/default.css" />
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/js/htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding>
-            <element signature="e#147#1081#0" expanded="false" />
-            <element signature="e#1263#1415#0" expanded="false" />
-            <element signature="e#1488#1902#0" expanded="false" />
-            <element signature="e#2113#2358#0" expanded="false" />
-            <element signature="e#2542#5161#0" expanded="false" />
-            <element signature="e#5640#5880#0" expanded="false" />
-            <element signature="e#6220#6561#0" expanded="false" />
-            <marker date="1494589214713" expanded="true" signature="7357:7373" ph="..." />
-          </folding>
+        <state relative-caret-position="500">
+          <caret line="116" column="90" lean-forward="false" selection-start-line="116" selection-start-column="90" selection-end-line="116" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/css/default.css">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="786">
+          <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/index.html">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/js/htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="478">
+          <caret line="114" column="56" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/360View.js">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D7500-getting-started/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View_fucked/js/imagerecognitionand3d_360View.js">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D7500-main-components/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200_getting-started/css/default.css">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="528">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/3dmodel.js" />
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/360View/js/imagerecognitionand3d.js">
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/js/htmldrawable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="456">
+          <caret line="115" column="71" lean-forward="false" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/d7500-tn.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/learning-map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/skyline.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding>
+            <element signature="e#366#1847#0" expanded="false" />
+            <element signature="e#368#499#0" expanded="false" />
+            <element signature="e#3300#3513#0" expanded="false" />
+            <element signature="e#3564#4244#0" expanded="false" />
+            <element signature="e#6327#6935#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-getting-started/js/htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="98" lean-forward="false" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/calendar_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="67" column="56" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="56" />
+          <folding>
+            <element signature="e#236#1402#0" expanded="false" />
+            <element signature="n#ul#0;n#ion-item#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="9961" column="0" lean-forward="false" selection-start-line="9961" selection-start-column="0" selection-end-line="9961" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="149" lean-forward="false" selection-start-line="25" selection-start-column="149" selection-end-line="25" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
+          <folding>
+            <element signature="e#16#6569#0" expanded="false" />
+            <element signature="e#6584#11565#0" expanded="false" />
+            <element signature="e#11580#12372#0" expanded="false" />
+            <element signature="e#12592#12938#0" expanded="false" />
+            <element signature="e#13080#13212#0" expanded="false" />
+            <element signature="e#13439#13981#0" expanded="false" />
+            <element signature="e#15681#16269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D3300-getting-started/js/htmldrawable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="115" column="64" lean-forward="false" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
+          <folding>
+            <marker date="1495532883134" expanded="true" signature="7357:7373" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="e#495#767#0" expanded="false" />
+            <element signature="e#1690#1694#0" expanded="true" />
+            <element signature="e#1695#1702#0" expanded="true" />
+            <element signature="e#1734#1741#0" expanded="true" />
+            <element signature="e#1741#1745#0" expanded="true" />
+            <element signature="e#2796#3400#0" expanded="false" />
+            <element signature="e#4517#4525#0" expanded="true" />
+            <element signature="n#ul#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -38,27 +38,25 @@ var World = {
 
 			A function is attached to the onLoaded trigger to receive a notification once the 3D model is fully loaded. Depending on the size of the model and where it is stored (locally or remotely) it might take some time to completely load and it is recommended to inform the user about the loading time.
 		*/
-		this.model = new AR.Model("assets/camera-with-lense.wt3", {
+		this.model = new AR.Model("assets/car_animated.wt3", {
 			onLoaded: this.loadingStep,
 			/*
 				The drawables are made clickable by setting their onClick triggers. Click triggers can be set in the options of the drawable when the drawable is created. Thus, when the 3D model onClick: this.toggleAnimateModel is set in the options it is then passed to the AR.Model constructor. Similar the button's onClick: this.toggleAnimateModel trigger is set in the options passed to the AR.ImageDrawable constructor. toggleAnimateModel() is therefore called when the 3D model or the button is clicked.
 
 				Inside the toggleAnimateModel() function, it is checked if the animation is running and decided if it should be started, resumed or paused.
 			*/
-			scale:{
-        x: 0.01,
-        y: 0.01,
-        z: 0.01
-
-      },
-
+			scale: {
+				x: 0,
+				y: 0,
+				z: 0
+			},
 			translate: {
 				x: 0.0,
-				y: 0.0,
+				y: 0.05,
 				z: 0.0
 			},
 			rotate: {
-				z: 0
+				z: -25
 			}
        	} );
 
@@ -118,9 +116,8 @@ var World = {
 			onImageLost: this.disappear,
             onError: function(errorMessage) {
             	alert(errorMessage);
-            },
-
-    });
+            }
+		});
 	},
 
 	removeLoadingBar: function() {

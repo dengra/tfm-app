@@ -1,28 +1,73 @@
+<!--
 <ion-header-bar class="bar-positive">
   <h2 class="title">More Info</h2>
 </ion-header-bar>
+-->
 
-<ion-view>
+<ion-view view-title="Learning Module Details" >
   <ion-content>
-    <ion-list class="list-inset">
-      <ion-item class="item-text-wrap"
-        ng-repeat="item in modules | filter: { shortname: whichcamera }">
+    <ion-refresher on-refresh="doRefresh()">
+    </ion-refresher>
+    <!--
 
-          <h1><img ng-src="img/{{item.level}}_tn.png"
-                   alt="{{ item.title }} {{item.level | uppercase}}" style="max-height: 50px">{{ item.title }}</h1>
+        <ion-list class="list-inset">
+          <ion-item class="item-text-wrap"
+                    ng-repeat="camera in cameras | filter: { shortname: whichcamera }">
+            <h1>
+              <img ng-src="img/{{camera.shortname}}-tn.png"
+                   alt="{{ camera.brand }} {{ camera.shortname | uppercase}}" style="max-height: 50px">
+              {{ camera.brand }} {{ camera.shortname }}
+            </h1>
 
-          <h3>{{ item.description }}</h3>
-        <ol>
-          <li ng-repeat="item in item.steps">
-            <p>- {{item}}</p>
-          </li>
-        </ol>
-        <!--<p>{{ item.steps[0] }}</p>-->
-        <button class="button button-block button-positive ion-ios-world-outline" ng-click="launchAR('{{item.ARView.URL}}')">
-          360° View
-        </button>
+            <h3>{{ camera.format}}</h3>
 
-      </ion-item>
-    </ion-list>
+            &lt;!&ndash;       <ol>
+                     <li ng-repeat="step in module.steps">
+                       <p>- {{step}}</p>
+                     </li>
+                   </ol>
+           &ndash;&gt;
+            &lt;!&ndash;<p>{{ item.steps[0] }}</p>&ndash;&gt;
+            &lt;!&ndash;DESCRIPTIVE CONCEPT AR VIEW of THIS CAMERA MODEL&ndash;&gt;
+            <button class="button button-block button-positive ion-ios-world-outline"
+                    ng-click="launchAR('{{module.ARView.URL}}')">
+              &lt;!&ndash;UPDATE THE URL to be DYNAMIC&ndash;&gt;
+              Show me the camera in 360° View
+            </button>
+
+          </ion-item>
+        </ion-list>
+
+    -->
+    <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
+    <ion-item class="item-text-wrap "
+              ng-repeat="module in modules | filter: { shortname: whichmodule }">
+      <h1>{{ module.title }}</h1>
+      <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.title }} {{module.level | uppercase}}" style="max-height: 50px">-->
+      <p>{{ module.description }}</p>
+      <h3><i class="ion-ios-list-outline"></i> Procedure:</h3>
+      <ol>
+        <li ng-repeat="step in module.steps">
+          <p>{{$index +1}}. {{step}}</p>
+        </li>
+      </ol>
+      <!--TODO: DROPDOWN LIST with IONIC SELECT https://ionicframework.com/docs/v1/components/#select-->
+      <!--TODO: TEST FÜR FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN (D3200, D5200, D7400 etc.)-->
+      <ul ng-show="module.relevantmodels">      <h3>This module is available for Cameras: </h3>
+
+        <li ng-repeat="relevantmodel in module.relevantmodels">
+          <p><b>{{relevantmodel | uppercase }}</b></p>
+        </li>
+      </ul>
+      <!--TEST ENDE-->
+
+      <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantmodels"-->
+      <!--MODEL in RELEVANTMODELS-->
+
+      <button class="button button-block button-positive ion-ios-world-outline"
+              ng-click="launchAR('{{module.ARView.URL}}')">
+        360° View
+      </button>
+    </ion-item>
   </ion-content>
 </ion-view>

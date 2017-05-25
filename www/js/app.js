@@ -24,7 +24,6 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
     }
 
 
-
     // The code placed inside the $ionicPlatform.ready() function is executed only when the device is ready,
     // so this is a perfect place to call the Ionicitude.init() method.
     Ionicitude.init({reqFeatures: ['2d_tracking']})
@@ -42,12 +41,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       .catch(function (error) {
         console.log("Hu-ho..! Something has failed !", error);
       });
-
-
   });
-
-
-
 })
 
 
@@ -83,7 +77,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
     })
 
     .state('tabs.detail', {
-      url: '/list/:aId',
+      url: '/list/:mId',
       views: {
         'list-tab' : {
           templateUrl: 'templates/detail.html',
@@ -133,9 +127,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
 
   $urlRouterProvider.otherwise('/tab/home');
 })
-/*
-
-.controller('CalendarController', ['$scope', '$http', '$state',
+/* .controller('CalendarController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data.json').success(function(data) {
       $scope.calendar = data.calendar;
@@ -166,39 +158,40 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       $scope.whichartist=$state.params.aId;
 
       $scope.modules = data.modules;
-      $scope.whichmodule=$state.params.aId;
+      $scope.whichmodule=$state.params.mId;
 
       $scope.cameras = data.cameras;
-      $scope.whichcamera=$state.params.aId;
+      $scope.whichcamera=$state.params.cId;
 
       $scope.data = { showDelete: false, showReorder: false };
 
-      $scope.onItemDelete = function(item) {
-        $scope.artists.splice($scope.artists.indexOf(item), 1);
+      $scope.onItemDelete = function(module) {
+        $scope.modules.splice($scope.modules.indexOf(module), 1);
       };
 
       $scope.doRefresh =function() {
       $http.get('js/data.json').success(function(data) {
-          $scope.artists = data;
+          $scope.modules = data.modules;
           $scope.$broadcast('scroll.refreshComplete');
         });
       };
 
-      $scope.toggleStar = function(item) {
-        item.star = !item.star;
+      $scope.toggleStar = function(module) {
+        module.star = !module.star;
       };
 
-      $scope.moveItem = function(item, fromIndex, toIndex) {
-        $scope.artists.splice(fromIndex, 1);
-        $scope.artists.splice(toIndex, 0, item);
+      $scope.moveItem = function(module, fromIndex, toIndex) {
+        $scope.modules.splice(fromIndex, 1);
+        $scope.modules.splice(toIndex, 0, module);
       };
     });
 }])
 
-.controller('LearningMapController', ['$scope', '$http', '$state',
+
+ /*.controller('LearningMapController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data.json').success(function(data) {
-      $scope.artists = data.artists;
+      $scope.modules = data.modules;
       $scope.whichartist=$state.params.aId;
 
       $scope.modules = data.modules;
@@ -208,7 +201,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       $scope.whichcamera=$state.params.aId;
 
       //Nested Loop in JavaScript Way
-      /*
+      /!*
       $scope.temparray = []
 
       var listElemt = null
@@ -226,12 +219,12 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
           }
         }
       }
-      */
+      *!/
 
     });
-}])
+}])*/
 
-  .controller('ARController',['$scope', 'Ionicitude', function ($scope, Ionicitude) {
+.controller('ARController',['$scope', 'Ionicitude', function ($scope, Ionicitude) {
 
 
     $scope.launchAR = function (ref) {

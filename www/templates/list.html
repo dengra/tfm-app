@@ -1,54 +1,142 @@
 <ion-view view-title="Learning Content">
 
-  <ion-nav-buttons side="primary">
-    <button
-      class="button button-icon ion-minus-circled"
-      ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
+  <ion-nav-buttons side="left">
+    <button class="button button-icon ion-minus-circled"
+            ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
     </button>
   </ion-nav-buttons>
 
-  <ion-nav-buttons side="secondary">
-    <button
-      class="button button-icon ion-navicon"
-      ng-click="data.showReorder = !data.showReorder; data.showDelete = false;">
+  <ion-nav-buttons side="right">
+    <button class="button button-icon ion-navicon"
+            ng-click="data.showReorder = !data.showReorder; data.showDelete = false;">
     </button>
   </ion-nav-buttons>
 
-  <div class="bar bar-subheader
-    item-input-inset bar-light">
-    <label class="item-input-wrapper">
-      <i class="icon ion-search placeholder-icon"></i>
-      <input type="search" ng-model="query" placeholder="Search">
-    </label>
-  </div>
+  <!--OLD SEARCH FIELD QUERY -->
+  <!--  <div class="bar bar-subheader item-input-inset bar-light">
+      <label class="item-input-wrapper">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" ng-model="query" placeholder="Search your Camera">
+
+      </label>
+    </div>-->
+  <!--OLD SEARCH FIELD QUERY END -->
+
+  <!--DROPDOWNLIST SELECT LIST FOR CAMERA MODELS-->
+  <label class="bar bar-subheader  item item-input item-select">
+    <div class="input-label">Camera Model:</div>
+    <!--FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
+    <select ng-model="selectCamera" ng-init="selectCamera=''"><!--placeholder="Select your Camera"-->
+      <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+
+      <option ng-repeat='camera in cameras'>{{camera.shortname}}</option> <!--Dynamische Kamera-Daten-->
+      <!--<option>D3200</option>--><!--Manuelle Daten zum Test-->
+      <!--<option>D5200</option>--><!--Manuelle Daten zum Test-->
+      <!--<option>D7400</option>--><!--Manuelle Daten zum Test-->
+    </select>
+
+    <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+
+      <option ng-selected="true" value="" >Select your Camera</option>
+      <option>D3200</option>
+      <option>D5200</option>
+      <option>D7400</option>
+    </select>
+  </label>
+
+  <!--TODO SECOND SELECT LIST FOR LEVELS BEGINNER, INTERMEDIATE & ADVANCED-->
+  <!--
+  <label class="bar bar-subheader  item item-input item-select">
+    <div class="input-label">
+    </div>
+    &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
+    <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+
+      <option ng-selected="true" value="" >Select your Camera</option>
+      <option>D3200</option>
+      <option>D5200</option>
+      <option>D7400</option>
+    </select>
+  </label>
+-->
+
 
   <ion-content
     class="has-subheader">
     <ion-refresher on-refresh="doRefresh()">
     </ion-refresher>
 
-    <!--List showing Learning Modules-->
-    <ion-list
+    <!--TODO DELETE TEST for CAMERA MODELS AFTER DEVELOPMENT-->
+    <!--TEST for CAMERA MODELS-->
+    <!--
+        <ion-list
+          show-delete="data.showDelete"
+          show-reorder="data.showReorder">
+          <ion-item ng-class="{'star': item.star}"
+                    ng-repeat='camera in cameras | filter: query '
+                    class="item-thumbnail-right item-icon-right
+                      item-text-wrap" href="#/tab/list/{{camera.shortname}}">
+            <img ng-src="img/{{camera.shortname}}-tn.png" alt="{{ camera.level }}">
+            <h2>{{camera.brand}} {{camera.shortname}}</h2>
+            <p>{{camera.format}} Sensor</p>
+
+
+          </ion-item>
+        </ion-list>
+    -->
+    <!--TEST for CAMERA MODELS ENDE-->
+
+
+    <!--LIST showing LEARNING MODULES-->
+    <ion-list type=""
       show-delete="data.showDelete"
       show-reorder="data.showReorder">
 
 
-      <ion-item ng-class="{'star': item.star}"
-                ng-repeat='item in modules | filter: query'
-                class="item-thumbnail-right item-icon-right
-                  item-text-wrap" href="#/tab/list/{{item.shortname}}">
-        <img ng-src="img/{{item.level}}_tn.png" alt="{{ item.level }}">
+      <!--TEST 2 FOR CAMERA MODELS-->
+      <!--TODO FIGURE OUT DROPDOWN LIST NACH IONIC SELECT https://ionicframework.com/docs/v1/components/#select-->
+      <!--      <ul>
+              <p>This course is available for Cameras: </p>
+              <li ng-repeat="relevantmodel in module.relevantmodels">
+                <p><b>{{relevantmodel | uppercase }}</b></p>
+              </li>
+            </ul>-->
+      <!--TEST 2 ENDE-->
 
-        <h2>{{item.title}}</h2>
-        <p>{{item.description}}</p>
-        <p>{{item.level | uppercase | limitTo: 100}}
-          {{ item.bio.length > 150 ? '&hellip;' : '' }}</p>
+      <!--TODO: FIGURE out what item.stars do here-->
+      <ion-item ng-class="{'star': item.star}"
+                ng-repeat='module in modules | filter: selectCamera'
+                class="item item-thumbnail-left
+                  item-text-wrap" href="#/tab/list/{{module.shortname}}">
+
+        <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
+
+        <h2>{{module.title | uppercase }}</h2>
+        <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '&hellip;' : '' }}</p>
+        <p><b>{{module.level | uppercase }}</b></p>
+        <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
+        <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
+        <ul>
+          <!--TODO: DISPLAY ONLY IF CAMERA MODELS AVAILABLE-->
+          <!--<p>This course is available for Cameras: </p>-->
+          <li ng-repeat="relevantmodel in module.relevantmodels">
+            <p>{{relevantmodel | uppercase }}</p>
+          </li>
+        </ul>
+        <!--DELETE AFTER DEVELOPMENT ENDE-->
+        <ion-reorder-button class="ion-navicon"
+                            on-reorder="moveItem(module, $fromIndex, $toIndex)">
+        </ion-reorder-button>
+
+<!--
+  Buttons with Dynamic AR content
+-->
+        <button class="button icon button-positive outline ion-ios-world-outline" ng-click="launchAR('{{module.ARView.URL}}')"> 360° View
+        </button>
 
 
       </ion-item>
     </ion-list>
-
-    <!--List showing Artists-->
   </ion-content>
 
-  </ion-view>
+</ion-view>

@@ -200,17 +200,17 @@
     },
     {
       "format": "XX",
-      "shortname": "DXXXX",
+      "shortname": "DX",
       "brand": "Nikon"
     },
     {
       "format": "XX",
-      "shortname": "DXXXX",
+      "shortname": "DXY",
       "brand": "Nikon"
     },
     {
       "format": "XX",
-      "shortname": "DXXXX",
+      "shortname": "DXZ",
       "brand": "Nikon"
     }
   ],
@@ -218,9 +218,10 @@
     {
       "title": "Get Started",
       "level": "beginner",
-      "shortname": "get_started",
+      "shortname": "getting-started",
       "relevantmodels": [
         "D3200",
+        "D3300",
         "D5200"
       ],
       "cameras": [
@@ -248,7 +249,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "D5200_getting-started",
+        "URL": "D5200-getting-started",
         "needs": [
           {
             "camera": "front"
@@ -262,7 +263,7 @@
     {
       "title": "Shoot your first picture",
       "level": "beginner",
-      "shortname": "first_pic",
+      "shortname": "shoot-first-picture",
       "description": "Shoot an amazing first picture!",
       "steps": [
         "Insert the battery",
@@ -271,7 +272,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first_pic",
+        "URL": "D5200-shoot-first-picture",
         "needs": [
           {
             "camera": "front"
@@ -283,9 +284,9 @@
       }
     },
     {
-      "title": "Main components of my camera",
+      "title": "Main camera components",
       "level": "beginner",
-      "shortname": "Main_components",
+      "shortname": "main-components",
       "description": "Learn where to find the most important parts of your camera and what they do",
       "steps": [
         "Insert the battery",
@@ -294,7 +295,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first_pic",
+        "URL": "D5200-main-components",
         "needs": [
           {
             "camera": "front"
@@ -317,7 +318,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first_intermediate_task",
+        "URL": "D5200-first-intermediate-task",
         "needs": [
           {
             "camera": "front"
@@ -329,18 +330,18 @@
       }
     },
     {
-      "title": "Shoot a picture in 'Aperture Mode'",
+      "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "first_intermediate_task",
-      "description": "Random Intermediate Task",
+      "description": "Shoot in 'Aperture Mode'",
       "steps": [
-        "Insert the battery",
+        "Change the RAD to 'Aperture Mode",
         "Insert the SD Card",
         "Turn on the camera",
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first_intermediate_task",
+        "URL": "D5200-shoot-aperture-mode",
         "needs": [
           {
             "camera": "front"
@@ -354,7 +355,7 @@
     {
       "title": "Cool complicated task",
       "level": "advanced",
-      "shortname": "first_advanced_task",
+      "shortname": "first-advanced-task",
       "description": "Random Intermediate Task",
       "steps": [
         {
@@ -368,7 +369,7 @@
         }
       ],
       "ARView": {
-        "URL": "first_advanced_task",
+        "URL": "D5200-first-advanced-task",
         "needs": [
           {
             "camera": "front"
