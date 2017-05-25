@@ -4,17 +4,21 @@ body {
   cursor: url('http://ionicframework.com/img/finger.png');
 }
 
+/*
 .star>.item-content {
   background-color: #EEE8D6 !important;
 }
+*/
 
+/*
 .splash {
-  /*background: url(../img/skyline.jpg) no-repeat center center fixed;*/
+  !*background: url(../img/skyline.jpg) no-repeat center center fixed;*!
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+*/
 
 .branding {
   width: 75%;
@@ -23,42 +27,50 @@ body {
   margin-top: 33%;
   text-align: center;
 }
+/*
 
 .tagline {
   font-size: 1.4rem;
 }
+*/
+/*
 
 .branding p {
   margin-top: 10px;
   font-size: 1rem;
 }
-
+*/
+/*
 .item-divider {
   background-color: #EEE8D6;
-}
-
+}*/
+/*
 .bar-positive, .tabs-positive>.tabs {
   background-color: #417D9A !important;
   border-color:  #417D9A;
-}
-
+}*/
+/*
 .item-thumbnail-left img {
-  border-radius: 10px;
-}
-
+  border-radius: 00px;
+}*/
 .item h3 {
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
   font-weight: bold;
-  color: #417D9A;
+  color: #0c63ee;
+}
+.item h2 {
+  /*font-size: 1.2rem;*/
+  font-weight: bold;
+  color: #0c63ee;
 }
 
 .dayhighlight {
   background-color: #9EC6DE;
-  border-top: 20px solid #417D9A;
+  border-top: 20px solid #0c63ee;
 }
 
 .dayhighlight h2 {
-  color: #417D9A;
+  color: #0c63ee;
   font-size: 2rem;
   font-weight: 200;
 }

@@ -332,7 +332,7 @@
     {
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
-      "shortname": "first_intermediate_task",
+      "shortname": "shoot-aperture-mode",
       "description": "Shoot in 'Aperture Mode'",
       "steps": [
         "Change the RAD to 'Aperture Mode",
@@ -356,17 +356,12 @@
       "title": "Cool complicated task",
       "level": "advanced",
       "shortname": "first-advanced-task",
-      "description": "Random Intermediate Task",
+      "description": "This is a very complicated task",
       "steps": [
-        {
-          "step": "Insert the battery"
-        },
-        {
-          "step": "Insert the SD Card"
-        },
-        {
-          "step": "Turn on the camera"
-        }
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
       ],
       "ARView": {
         "URL": "D5200-first-advanced-task",

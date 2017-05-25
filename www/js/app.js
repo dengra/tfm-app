@@ -188,7 +188,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
 }])
 
 
- /*.controller('LearningMapController', ['$scope', '$http', '$state',
+ .controller('LearningMapController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data.json').success(function(data) {
       $scope.modules = data.modules;
@@ -201,8 +201,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       $scope.whichcamera=$state.params.aId;
 
       //Nested Loop in JavaScript Way
-      /!*
-      $scope.temparray = []
+/*      $scope.temparray = []
 
       var listElemt = null
       for (var i = 0; i < $scope.module.length; i++) {
@@ -218,11 +217,10 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
             $scope.temparray.push(listElemt)
           }
         }
-      }
-      *!/
+      }*/
 
     });
-}])*/
+}])
 
 .controller('ARController',['$scope', 'Ionicitude', function ($scope, Ionicitude) {
 

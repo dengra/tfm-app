@@ -4,7 +4,7 @@
 </ion-header-bar>
 -->
 
-<ion-view view-title="Learning Module Details" >
+<ion-view view-title="Learning Module Details">
   <ion-content>
     <ion-refresher on-refresh="doRefresh()">
     </ion-refresher>
@@ -42,19 +42,22 @@
     <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
     <ion-item class="item-text-wrap "
               ng-repeat="module in modules | filter: { shortname: whichmodule }">
-      <h1>{{ module.title }}</h1>
+      <h2>{{ module.title }}</h2>
       <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.title }} {{module.level | uppercase}}" style="max-height: 50px">-->
       <p>{{ module.description }}</p>
-      <h3><i class="ion-ios-list-outline"></i> Procedure:</h3>
-      <ol>
+
+      <ol ng-show="module.steps"> <!--Procedure with Steps -->
+        <h3>
+          <i class="ion-ios-list-outline"></i> Procedure:</h3>
         <li ng-repeat="step in module.steps">
           <p>{{$index +1}}. {{step}}</p>
         </li>
-      </ol>
-      <!--TODO: DROPDOWN LIST with IONIC SELECT https://ionicframework.com/docs/v1/components/#select-->
-      <!--TODO: TEST FÜR FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN (D3200, D5200, D7400 etc.)-->
-      <ul ng-show="module.relevantmodels">      <h3>This module is available for Cameras: </h3>
+      </ol><!--Procedure with Steps Ende -->
 
+      <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
+      <ul ng-show="module.relevantmodels">
+        <!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model-->
+        <h3>This module is available for Cameras: </h3>
         <li ng-repeat="relevantmodel in module.relevantmodels">
           <p><b>{{relevantmodel | uppercase }}</b></p>
         </li>
