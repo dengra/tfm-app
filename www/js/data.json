@@ -374,6 +374,29 @@
           }
         ]
       }
+    },
+    {
+      "title": "Exchange the lense for your Camera",
+      "level": "advanced",
+      "shortname": "exchange-lense",
+      "description": "This is a very complicated task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D90-exchange-lense",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
     }
   ]
 }

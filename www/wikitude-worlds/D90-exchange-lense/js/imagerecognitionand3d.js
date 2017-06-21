@@ -61,41 +61,56 @@ var World = {
       }
     });
 
-    this.animationDoorL = new AR.ModelAnimation(this.model, "DoorOpenL_animation");
-    this.animationDoorR = new AR.ModelAnimation(this.model, "DoorOpenR_animation");
-    this.animationEngine = new AR.ModelAnimation(this.model, "EngineWindow_animation");
-    this.animationHood = new AR.ModelAnimation(this.model, "Trunkopen_animation");
+    /*
+     this.animationDoorL = new AR.ModelAnimation(this.model, "DoorOpenL_animation");
+     this.animationDoorR = new AR.ModelAnimation(this.model, "DoorOpenR_animation");
+     this.animationEngine = new AR.ModelAnimation(this.model, "EngineWindow_animation");
+     this.animationHood = new AR.ModelAnimation(this.model, "Trunkopen_animation");
+
+     this.model.onClick = function (drawable, model_part) {
+     switch (model_part) {
+     case 'WindFL':
+     case 'DoorL[0]':
+     case 'DoorL[1]':
+     case 'DoorL[2]':
+     case 'DoorL[3]':
+     World.animationDoorL.start();
+     break;
+
+     case 'WindFR':
+     case 'DoorR[0]':
+     case 'DoorR[1]':
+     case 'DoorR[2]':
+     case 'DoorR[3]':
+     World.animationDoorR.start();
+     break;
+
+     case 'Rear[0]':
+     case 'Rear[1]':
+     case 'WindR1[0]':
+     case 'WindR1[1]':
+     World.animationEngine.start();
+     break;
+
+     case 'Hood':
+     World.animationHood.start();
+     break;
+     }
+     }*/
+
+    this.animationLense = new AR.ModelAnimation(this.model, "Scene");
 
     this.model.onClick = function (drawable, model_part) {
       switch (model_part) {
-        case 'WindFL':
-        case 'DoorL[0]':
-        case 'DoorL[1]':
-        case 'DoorL[2]':
-        case 'DoorL[3]':
-          World.animationDoorL.start();
-          break;
 
-        case 'WindFR':
-        case 'DoorR[0]':
-        case 'DoorR[1]':
-        case 'DoorR[2]':
-        case 'DoorR[3]':
-          World.animationDoorR.start();
-          break;
-
-        case 'Rear[0]':
-        case 'Rear[1]':
-        case 'WindR1[0]':
-        case 'WindR1[1]':
-          World.animationEngine.start();
-          break;
-
-        case 'Hood':
-          World.animationHood.start();
+        case 'LenseReleaseButtonBase'://model part name
+        case 'LenseReleaseButton':
+        case 'Lense':
+        case 'NikonText':
+          World.animationLense.start();
           break;
       }
-    }
+    };
 
 
     /*
@@ -116,7 +131,7 @@ var World = {
       onImageLost: this.disappear,
       onError: function (errorMessage) {
         alert(errorMessage);
-      },
+      }
 
     });
   },
@@ -139,8 +154,8 @@ var World = {
       var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
       var cssDivRight = " style='display: table-cell;vertical-align: middle; text-align: left;'";
       document.getElementById('loadingMessage').innerHTML =
-        "<div" + cssDivLeft + ">Tap a part of the camera to learn about it</div>" +
-        "<div" + cssDivRight + "><img src='assets/car.png'></img></div>";
+        "<div" + cssDivLeft + ">Scan the camera to learn how to change the lense</div>" +
+        "<div" + cssDivRight + "><img src='assets/car.png'/></div>";
     }
   },
 
@@ -177,8 +192,8 @@ var World = {
   },
 
   resetModel: function resetModelFn() {
-    World.model.rotate.z = -25;
-  },
+    World.model.rotate.z = 0;
+  }
 
 };
 

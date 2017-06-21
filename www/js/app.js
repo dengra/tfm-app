@@ -54,7 +54,6 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       abstract: true,
       templateUrl: 'templates/tabs.html',
       controller: 'ARController'
-
     })
 
     .state('tabs.home', {
