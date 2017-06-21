@@ -29,16 +29,12 @@
     <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
     <select ng-model="selectCamera" ng-init="selectCamera=''"><!--placeholder="Select your Camera"-->
       <option  value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
-
       <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
       <!--Dynamische Kamera-Daten-->
       <option>-------------</option>
-
       <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
       <!--Dynamische Kamera-Daten-->
-
       <option>-------------</option>
-
       <!--Manuelle Daten zum Test-->
       <option>Beginner</option>
       <option>Intermediate</option>
@@ -51,7 +47,6 @@
       &lt;!&ndash;TODO find filter https://github.com/a8m/angular-filter#unique  | unique: 'level'&ndash;&gt;
       <option ng-repeat="module in modules " ng-show="module.level">{{module.level}}</option>
 -->
-
     </select>
 
 

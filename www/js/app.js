@@ -185,9 +185,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
       };
     });
 }])
-
-
- .controller('LearningMapController', ['$scope', '$http', '$state',
+.controller('LearningMapController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data.json').success(function(data) {
       $scope.modules = data.modules;
@@ -220,10 +218,7 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
 
     });
 }])
-
 .controller('ARController',['$scope', 'Ionicitude', function ($scope, Ionicitude) {
-
-
     $scope.launchAR = function (ref) {
       try {
         // The ref passed as an argument to Ionicitude.launchAR() must be the name
