@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'ionicitude-module'])
+angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
 .run(function($ionicPlatform, Ionicitude) {
 /*
@@ -153,9 +153,6 @@ angular.module('starter', ['ionic', 'ionicitude-module'])
 .controller('ListController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data.json').success(function(data) {
-      $scope.artists = data.artists;
-      $scope.whichartist=$state.params.aId;
-
       $scope.modules = data.modules;
       $scope.whichmodule=$state.params.mId;
 

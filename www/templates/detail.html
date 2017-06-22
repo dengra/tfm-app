@@ -40,7 +40,7 @@
 
     -->
     <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
-    <ion-item class="item-text-wrap "
+    <ion-item class="item-text-wrap"
               ng-repeat="module in modules | filter: { shortname: whichmodule }">
       <h2>{{ module.title }}</h2>
       <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.title }} {{module.level | uppercase}}" style="max-height: 50px">-->
@@ -55,14 +55,12 @@
       </ol><!--Procedure with Steps Ende -->
 
       <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
-      <ul ng-show="module.relevantmodels">
-        <!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model-->
+      <ul ng-show="module.relevantmodels"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model-->
         <h3>This module is available for Cameras: </h3>
         <li ng-repeat="relevantmodel in module.relevantmodels">
           <p><b>{{relevantmodel | uppercase }}</b></p>
         </li>
       </ul>
-      <!--TEST ENDE-->
 
       <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantmodels"-->
       <!--MODEL in RELEVANTMODELS-->

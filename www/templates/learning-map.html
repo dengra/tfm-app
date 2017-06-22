@@ -19,10 +19,8 @@
 
   <ion-content class="has-subheader">
       <ion-list>
-        <ion-radio ng-model="choice"
-                   ng-repeat="camera in cameras"
-                   ng-value="{{camera.shortname}}"
-                   ng-show="camera.format == 'DX' ">
+        <ion-radio
+          ng-model="choice"  ng-repeat="camera in cameras" ng-value="{{camera.shortname}}" ng-show="camera.format == 'DX' ">
           {{camera.shortname }}
         </ion-radio>
       </ion-list>
@@ -48,7 +46,7 @@
         <h2>{{module.title}}</h2>
         <p>{{module.description}}</p>
         <p>{{module.level | uppercase | limitTo: 100}}
-          {{ module.bio.length > 150 ? '&hellip;' : '' }}</p>
+          {{ module.bio.length > 150 ? '...' : '' }}</p>
 
 
       </ion-item>

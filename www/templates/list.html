@@ -25,28 +25,23 @@
   <!--DROPDOWNLIST SELECT LIST FOR CAMERA MODELS-->
   <label class="bar bar-subheader  item item-input item-select">
     <div class="input-label">Camera Model:</div>
-    <!--FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
-    <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
-    <select ng-model="selectCamera" ng-init="selectCamera=''"><!--placeholder="Select your Camera"-->
-      <option  value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+
+    <select ng-model="selectCamera" ng-init="selectCamera=''">
+      <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
+      <!--FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
+      <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+
       <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-      <!--Dynamische Kamera-Daten-->
+      <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat-->
       <option>-------------</option>
+
       <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
-      <!--Dynamische Kamera-Daten-->
+      <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat-->
       <option>-------------</option>
-      <!--Manuelle Daten zum Test-->
-      <option>Beginner</option>
-      <option>Intermediate</option>
-      <option>Advanced</option>
-<!--TODO Prio 1 (Development) - Dynamic Levels filter-->
-      <!--Test for Dynamic Level Filter-->
-<!--
-      <option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>
-      <option ng-repeat='module in modules' ng-show="module.level == 'beginner'">{{module.level}}</option> &lt;!&ndash;Dynamische Kamera-Daten&ndash;&gt;
-      &lt;!&ndash;TODO find filter https://github.com/a8m/angular-filter#unique  | unique: 'level'&ndash;&gt;
-      <option ng-repeat="module in modules " ng-show="module.level">{{module.level}}</option>
--->
+
+      <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
+      <!--Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen-->
+      <!-- filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'-->
     </select>
 
 
@@ -54,24 +49,21 @@
 
   <!--TODO PRIO 2 SECOND SELECT LIST FOR LEVELS BEGINNER, INTERMEDIATE & ADVANCED-->
   <!--
-  <label class="bar bar-subheader  item item-input item-select">
-    <div class="input-label">
-    </div>
-    &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
-    <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-      <option ng-selected="true" value="" >Select your proficiency level</option>
-      <option>Beginner</option>
-      <option>Intermediate</option>
-      <option>Advanced</option>
-    </select>
-    </select>
-  </label>
+    <label class="bar bar-subheader  item item-input item-select">
+      <div class="input-label">
+      </div>
+      &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
+      <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+        <option ng-selected="true" value="" >Select your proficiency level</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+      </select>
+    </label>
+  <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+    <option ng-selected="true" value="" >Select your camera</option>
   -->
-  <!--
-<select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-  <option ng-selected="true" value="" >Select your camera</option>
-
--->
 
 
   <ion-content
@@ -116,38 +108,27 @@
                   </ul>-->
       <!--TEST 2 ENDE-->
 
-      <ion-item
-        ng-repeat='module in modules | filter: selectCamera'
-        class="item-thumbnail-left
-                  item-text-wrap" href="#/tab/list/{{module.shortname}}">
-
+      <ion-item ng-repeat='module in modules | filter: selectCamera'
+                class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
-
         <h2>{{module.title | uppercase }}</h2>
-        <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '&hellip;' : '' }}</p>
-        <!--<p><b>{{module.level | uppercase }}</b></p>-->
+        <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
-        <ul>
-          <!--TODO PRIO 2: DISPLAY ONLY IF CAMERA MODELS AVAILABLE-->
+        <ul ng-show="module.relevantmodels">
+          <!--DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE-->
           <p>This course is available for Cameras: </p>
           <li ng-repeat="relevantmodel in module.relevantmodels">
             <p>{{relevantmodel | uppercase }}</p>
           </li>
-        </ul>
-        <!--DELETE AFTER DEVELOPMENT ENDE-->
+        </ul><!--DELETE AFTER DEVELOPMENT ENDE-->
         <ion-reorder-button class="ion-navicon"
-                            on-reorder="moveItem(module, $fromIndex, $toIndex)">
-        </ion-reorder-button>
+                            on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
 
-        <!--
-          Buttons with Dynamic AR content
-        -->
-        <ion-option-button class="icon button-energized outline ion-ios-world-outline"
-                           ng-click="launchAR('{{module.ARView.URL}}')"> 360° View
-          </ion-option-button>
-
-
+        <!--Buttons with Dynamic AR content-->
+        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')"> 360° View
+          class="icon button-energized outline ion-ios-world-outline">
+        </ion-option-button>
       </ion-item>
     </ion-list>
   </ion-content>
