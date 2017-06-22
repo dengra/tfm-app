@@ -1,70 +1,79 @@
 <ion-view view-title="Learning Content">
-
   <ion-nav-buttons side="left">
     <button class="button button-icon ion-minus-circled"
             ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
     </button>
   </ion-nav-buttons>
-
   <ion-nav-buttons side="right">
     <button class="button button-icon ion-navicon"
             ng-click="data.showReorder = !data.showReorder; data.showDelete = false;">
     </button>
   </ion-nav-buttons>
 
-  <!--OLD SEARCH FIELD QUERY -->
+  <!--SEARCH FIELD QUERY -->
   <!--  <div class="bar bar-subheader item-input-inset bar-light">
       <label class="item-input-wrapper">
         <i class="icon ion-search placeholder-icon"></i>
         <input type="search" ng-model="query" placeholder="Search your Camera">
-
       </label>
     </div>-->
-  <!--OLD SEARCH FIELD QUERY END -->
+  <!--SEARCH FIELD QUERY END -->
 
-  <!--DROPDOWNLIST SELECT LIST FOR CAMERA MODELS-->
-  <label class="bar bar-subheader  item item-input item-select">
-    <div class="input-label">Camera Model:</div>
-
-    <select ng-model="selectCamera" ng-init="selectCamera=''">
-      <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
-      <!--FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
-      <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
-
-      <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-      <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat-->
-      <option>-------------</option>
-
-      <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
-      <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat-->
-      <option>-------------</option>
-
-      <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
-      <!--Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen-->
-      <!-- filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'-->
-    </select>
-
-
-  </label>
-
-  <!--TODO PRIO 2 SECOND SELECT LIST FOR LEVELS BEGINNER, INTERMEDIATE & ADVANCED-->
-  <!--
-    <label class="bar bar-subheader  item item-input item-select">
+  <!--SELECT LIST FOR CAMERA MODELS-->
+<div class="list bar bar-subheader">
+    <label class="item item-input item-select">
       <div class="input-label">
+        Camera Model:
       </div>
-      &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
-      <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-        <option ng-selected="true" value="" >Select your proficiency level</option>
-        <option>Beginner</option>
-        <option>Intermediate</option>
-        <option>Advanced</option>
-      </select>
+      <select ng-model="selectCamera" ng-init="selectCamera=''">
+        <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
+        <!--FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
+        <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+        <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+        <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat-->
+        <option>-------------</option>
+        <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
+        <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat-->
+        <option>-------------</option>
+        <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
+        <!--Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen-->
+        <!-- filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'-->
       </select>
     </label>
-  <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-    <option ng-selected="true" value="" >Select your camera</option>
-  -->
 
+    <label class="item item-input item-select">
+      <div class="input-label">
+        Camera
+      </div>
+      <select>
+        <option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+        <!--<option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>-->
+        <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
+      </select>
+    </label>
+
+    <label class="item item-input item-select">
+      <div class="input-label">
+        Skill level
+      </div>
+      <select>
+        <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
+      </select>
+    </label><!--    <label class="item item-input item-select">-->
+  </div> <!--div.list ende-->
+
+
+  <!--    <label class="bar bar-subheader  item item-input item-select">
+        <div class="input-label"></div>
+        &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
+        <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+          <option ng-selected="true" value="" >Select your proficiency level</option>
+          <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
+        </select>
+
+    <select ng-model="query"  ng-init="query='D3200'"></select>&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
+      <option ng-selected="true" value="" >Select your camera</option>
+    </label>-->
 
   <ion-content
     class="has-subheader">
@@ -91,22 +100,10 @@
     -->
     <!--TEST for CAMERA MODELS ENDE-->
 
-
     <!--LIST showing LEARNING MODULES-->
     <ion-list type=""
               show-delete="data.showDelete"
               show-reorder="data.showReorder">
-
-
-      <!--TEST 2 FOR CAMERA MODELS-->
-
-      <!--            <ul>
-                    <p>This course is available for Cameras: </p>
-                    <li ng-repeat="relevantmodel in module.relevantmodels">
-                      <p><b>{{relevantmodel | uppercase }}</b></p>
-                    </li>
-                  </ul>-->
-      <!--TEST 2 ENDE-->
 
       <ion-item ng-repeat='module in modules | filter: selectCamera'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
@@ -129,8 +126,8 @@
         <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')"> 360° View
           class="icon button-energized outline ion-ios-world-outline">
         </ion-option-button>
+
       </ion-item>
     </ion-list>
   </ion-content>
-
 </ion-view>

@@ -50,7 +50,7 @@
   "modules": [
     {
       "title": "Get Started",
-      "level": "beginner",
+      "level": "Beginner",
       "shortname": "getting-started",
       "relevantmodels": [
         "D3200",
@@ -96,7 +96,7 @@
     },
     {
       "title": "Shoot your first picture",
-      "level": "beginner",
+      "level": "Beginner",
       "shortname": "shoot-first-picture",
       "description": "Shoot an amazing first picture!",
       "steps": [
@@ -119,7 +119,7 @@
     },
     {
       "title": "Main camera components",
-      "level": "beginner",
+      "level": "Beginner",
       "shortname": "main-components",
       "description": "Learn where to find the most important parts of your camera and what they do",
       "steps": [
@@ -142,7 +142,7 @@
     },
     {
       "title": "Improve your Skills",
-      "level": "intermediate",
+      "level": "Intermediate",
       "shortname": "first_intermediate_task",
       "description": "Random Intermediate Task",
       "steps": [
@@ -165,7 +165,7 @@
     },
     {
       "title": "Shoot in 'Aperture Mode'",
-      "level": "intermediate",
+      "level": "Intermediate",
       "shortname": "shoot-aperture-mode",
       "description": "Shoot in 'Aperture Mode'",
       "steps": [
@@ -188,7 +188,7 @@
     },
     {
       "title": "Cool complicated task",
-      "level": "advanced",
+      "level": "Advanced",
       "shortname": "first-advanced-task",
       "description": "This is a very complicated task",
       "steps": [
@@ -211,7 +211,7 @@
     },
     {
       "title": "Exchange the lense for your Camera",
-      "level": "advanced",
+      "level": "Advanced",
       "shortname": "exchange-lense",
       "description": "This is a very complicated task",
       "steps": [
