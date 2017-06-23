@@ -74,3 +74,11 @@ body {
   font-size: 2rem;
   font-weight: 200;
 }
+
+.platform-android .bar-subheader  {
+  top: 40px;
+}
+
+.platform-android  .has-subheader{
+  color: rebeccapurple;
+}

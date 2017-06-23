@@ -25,7 +25,7 @@
       <div class="input-label">
         Camera Model:
       </div>
-      <select ng-model="selectCamera" ng-init="selectCamera=''">
+      <select  ng-model="selectCamera" ng-init="selectCamera=''">
         <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
         <!--FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
@@ -40,14 +40,14 @@
         <!-- filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'-->
       </select>
     </label>
-
     <label class="item item-input item-select">
       <div class="input-label">
         Camera
       </div>
-      <select>
+      <select  ng-model="selectCamera" ng-init="selectCamera=''">
+        <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
         <option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-        <!--<option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>-->
+        <!--<option>-------------</option>-->
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
       </select>
     </label>
@@ -56,7 +56,8 @@
       <div class="input-label">
         Skill level
       </div>
-      <select>
+      <select  ng-model="selectModule" ng-init="selectModule=''">
+        <option value="" selected>Skill level</option> <!--ng-selected="true" value="" -->
         <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
       </select>
     </label><!--    <label class="item item-input item-select">-->
@@ -105,7 +106,7 @@
               show-delete="data.showDelete"
               show-reorder="data.showReorder">
 
-      <ion-item ng-repeat='module in modules | filter: selectCamera'
+      <ion-item ng-repeat='module in modules | filter: selectCamera | filter: selectModule'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
         <h2>{{module.title | uppercase }}</h2>
