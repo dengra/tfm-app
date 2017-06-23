@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/advanced-tn.png" afterPath="$PROJECT_DIR$/www/img/Advanced-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/beginner-tn.png" afterPath="$PROJECT_DIR$/www/img/Beginner-tn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/intermediate-tn.png" afterPath="$PROJECT_DIR$/www/img/Intermediate-tn.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js" afterPath="$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/list.html" afterPath="$PROJECT_DIR$/www/templates/list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,33 +38,8 @@
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-              <folding>
-                <element signature="e#387#1942#0" expanded="false" />
-                <element signature="e#576#1936#0" expanded="false" />
-                <element signature="e#4829#5715#0" expanded="false" />
-                <element signature="e#5802#6408#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -67,34 +47,95 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            <state relative-caret-position="436">
+              <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding>
                 <element signature="e#489#760#0" expanded="false" />
-                <element signature="e#4318#4922#0" expanded="false" />
+                <element signature="n#div#0;n#ion-view#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learning-map.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/learning-map.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#4845#5731#0" expanded="false" />
+                <element signature="e#5818#6424#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionicitude.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1955">
+              <caret line="115" column="18" lean-forward="false" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/detail.html">
+      <file leaf-file-name="WikitudePlugin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/src/com/wikitude/phonegap/WikitudePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-              <folding>
-                <element signature="e#235#1401#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="14620">
+              <caret line="860" column="64" lean-forward="false" selection-start-line="860" selection-start-column="48" selection-end-line="860" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="platforms.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/platforms.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,15 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>select</find>
-      <find>dayhighlight</find>
-      <find>h2</find>
-      <find>size</find>
-      <find>item</find>
-      <find>ARController</find>
-      <find>_tn</find>
-      <find>camera</find>
-      <find>track</find>
       <find>rotate</find>
       <find>loading</find>
       <find>animationLense</find>
@@ -140,6 +172,15 @@
       <find>&quot;level&quot;: &quot;advanced&quot;</find>
       <find>query</find>
       <find>selectCamera</find>
+      <find>Ionicitude.init</find>
+      <find>2d_</find>
+      <find>'2d_tracking'</find>
+      <find>IR&quot;</find>
+      <find>FeatureGeo</find>
+      <find>geo</find>
+      <find>locationProvider.onResume();</find>
+      <find>locationProvider</find>
+      <find>selected</find>
     </findStrings>
     <replaceStrings>
       <replace>D5200-</replace>
@@ -204,9 +245,13 @@
         <option value="$PROJECT_DIR$/www/templates/learning-map.html" />
         <option value="$PROJECT_DIR$/www/templates/detail.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/js/data.json" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/com/wikitude/phonegap/WikitudePlugin.java" />
+        <option value="$PROJECT_DIR$/platforms/android/android.json" />
+        <option value="$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js" />
         <option value="$PROJECT_DIR$/www/templates/list.html" />
       </list>
     </option>
@@ -247,6 +292,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,20 +334,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ARUA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Prototyping-Team/Beacons_UA_Reloaded-v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Tutorials/Angular-Design-Patterns-Best-Practices-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -431,6 +490,11 @@
       <workItem from="1497695886606" duration="785000" />
       <workItem from="1498053569024" duration="5406000" />
       <workItem from="1498121825467" duration="16189000" />
+      <workItem from="1498209130049" duration="274000" />
+      <workItem from="1498217843305" duration="4314000" />
+      <workItem from="1498229787242" duration="292000" />
+      <workItem from="1498234809512" duration="2388000" />
+      <workItem from="1498251219409" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="ar view opens">
       <created>1494103008720</created>
@@ -464,7 +528,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156984000" />
+    <option name="totallyTimeSpent" value="164377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,26 +541,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11433087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16385669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12374582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982143" sideWeight="0.26149303" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48998946" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12012645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.44927537" sideWeight="0.738507" order="8" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972129" sideWeight="0.738507" order="8" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -556,78 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-first-picture/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-main-components/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D3300-main-components/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-shoot-aperture-mode/js/htmldrawable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="115" column="71" lean-forward="false" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/d7500-tn.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D5200-first-advanced-task/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/skyline.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -636,14 +628,6 @@
     <entry file="file://$PROJECT_DIR$/resources/splash.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="67" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js">
@@ -695,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/advanced-tn.png">
+    <entry file="file://$PROJECT_DIR$/www/img/Advanced-tn.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -754,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,12 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="111" column="7" lean-forward="false" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-          <folding>
-            <element signature="e#2593#3254#0" expanded="false" />
-            <element signature="e#3461#4423#0" expanded="false" />
-            <element signature="e#5025#5510#0" expanded="false" />
-            <element signature="e#6761#7364#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746130">
           <caret line="43895" column="20" lean-forward="false" selection-start-line="43895" selection-start-column="8" selection-end-line="43895" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,14 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2516">
           <caret line="148" column="366" lean-forward="false" selection-start-line="148" selection-start-column="364" selection-end-line="148" selection-end-column="366" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="329" column="20" lean-forward="false" selection-start-line="329" selection-start-column="14" selection-end-line="329" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -806,47 +773,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/list_v0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/detail_v0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/calendar_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/list_v0.html" />
+    <entry file="file://$PROJECT_DIR$/www/templates/detail_v0.html" />
+    <entry file="file://$PROJECT_DIR$/www/templates/calendar_old.html" />
     <entry file="file://$PROJECT_DIR$/www/templates/learning-map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="374">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding>
-            <element signature="e#235#1401#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,20 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="1217" column="15" lean-forward="false" selection-start-line="1217" selection-start-column="9" selection-end-line="1217" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-          <folding>
-            <element signature="e#387#1942#0" expanded="false" />
-            <element signature="e#576#1936#0" expanded="false" />
-            <element signature="e#4829#5715#0" expanded="false" />
-            <element signature="e#5802#6408#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,12 +811,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="208" column="9" lean-forward="true" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="167" lean-forward="false" selection-start-line="17" selection-start-column="167" selection-end-line="17" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.wikitude.phonegap.WikitudePlugin/src/android/libs/build-extras.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/natives/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/plugins/com.wikitude.phonegap.WikitudePlugin/www/WikitudePlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/plugin/android/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/platform_www/cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="178" column="1" lean-forward="false" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/src/com/wikitude/phonegap/WikitudePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14620">
+          <caret line="860" column="64" lean-forward="false" selection-start-line="860" selection-start-column="48" selection-end-line="860" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/platforms.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionicitude/dist/ionicitude.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="18" lean-forward="false" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
-            <element signature="e#15#808#0" expanded="false" />
-            <element signature="e#21#125#0" expanded="false" />
-            <element signature="e#131#211#0" expanded="false" />
-            <element signature="e#217#297#0" expanded="false" />
-            <element signature="e#303#383#0" expanded="false" />
+            <element signature="e#4845#5731#0" expanded="false" />
+            <element signature="e#5818#6424#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,26 +947,18 @@
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        <state relative-caret-position="436">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
             <element signature="e#489#760#0" expanded="false" />
-            <element signature="e#4318#4922#0" expanded="false" />
+            <element signature="n#div#0;n#ion-view#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

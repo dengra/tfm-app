@@ -21,25 +21,26 @@
 
   <!--SELECT LIST FOR CAMERA MODELS-->
 <div class="list bar bar-subheader">
-    <label class="item item-input item-select">
+  <!--Test Select List-->
+<!--    <label class="item item-input item-select">
       <div class="input-label">
         Camera Model:
       </div>
       <select  ng-model="selectCamera" ng-init="selectCamera=''">
-        <!--DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select-->
-        <!--FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed-->
-        <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+        &lt;!&ndash;DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select&ndash;&gt;
+        &lt;!&ndash;FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
+        <option value="" selected>Select your Camera</option> &lt;!&ndash;ng-selected="true" value="" &ndash;&gt;
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-        <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat-->
-        <option>-------------</option>
+        &lt;!&ndash;Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat&ndash;&gt;
+        <option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
-        <!--Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat-->
-        <option>-------------</option>
+        &lt;!&ndash;Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat&ndash;&gt;
+        <option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>
         <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
-        <!--Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen-->
-        <!-- filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'-->
+        &lt;!&ndash;Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen&ndash;&gt;
+        &lt;!&ndash; filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'&ndash;&gt;
       </select>
-    </label>
+    </label>-->
     <label class="item item-input item-select">
       <div class="input-label">
         Camera
@@ -80,7 +81,8 @@
     class="has-subheader">
     <ion-refresher on-refresh="doRefresh()">
     </ion-refresher>
-
+<div class="list"></div>
+<div class="list"></div>
     <!--TODO AFTER DEV - delete for test for camera models -->
     <!--TEST for CAMERA MODELS-->
     <!--

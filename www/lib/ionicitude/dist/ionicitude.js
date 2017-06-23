@@ -113,7 +113,7 @@ function Ionicitude($q) {
 		 * More information : http://www.wikitude.com/developer/documentation/phonegap.
 		 * @type {Array}
 		 */
-		reqFeatures: ['geo', '2d_tracking'],
+		reqFeatures: ['geo', '2d_tracking'],//
 		/**
 		 * Defines where in your app are stored all your ARchitect World folders.
 		 * This folder should contain sub-folders, one for each of your AR World.

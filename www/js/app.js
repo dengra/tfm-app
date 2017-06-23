@@ -26,7 +26,9 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
       // The code placed inside the $ionicPlatform.ready() function is executed only when the device is ready,
       // so this is a perfect place to call the Ionicitude.init() method.
-      Ionicitude.init({reqFeatures: ['2d_tracking']})
+      Ionicitude.init({
+        reqFeatures: ['2d_tracking']
+      })
         .then(function () {
           console.log('Here you go. Ionicitude is fully initialized !');
           // Now that Ionicitude is initialized, we can safely add the Actions that could be called from within an AR View.
