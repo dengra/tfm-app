@@ -1,4 +1,4 @@
-myApp.factory('Authentication',
+starter.factory('Authentication',
   ['$rootScope', '$location', '$firebaseObject', '$firebaseAuth',
   function($rootScope, $location, $firebaseObject, $firebaseAuth) {
 

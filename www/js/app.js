@@ -3,9 +3,18 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
-  .run(function ($ionicPlatform, Ionicitude) {
+var starter = angular.module('starter',
+  ['firebase', 'ionic', 'ionicitude-module', 'angular.filter']);
+
+  starter.run(function ($rootScope, $location, $ionicPlatform, Ionicitude) {
+    $rootScope.$on('$routeChangeError', function(event, next, previous, error) {
+      if (error == 'AUTH_REQUIRED') {
+        $rootScope.message = 'Sorry, you must log in to access that page';
+        $location.path('/login');
+      }//Auth Required
+    }); //$routeChangeError
+
     /*
      $ionicPlatform.registerBackButtonAction(function(e){
      e.preventDefault();
@@ -45,7 +54,8 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
         });
     });
   })
-  .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+  starter.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+
     $ionicConfigProvider.tabs.position('bottom'); //setzt die Tabs unten in der App
     $stateProvider //konfiguriert die "States" der App, das Routing, die Templates, die Tabs und die Beziehung zu einander
       .state('tabs', {
@@ -109,7 +119,39 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
             templateUrl: 'templates/about.html'
           }
         }
-      });
+      })
+      .state('tabs.login', {
+        url: '/login',
+        views: {
+          'login-tab': {
+            templateUrl: 'views/login.html',
+            controller: 'RegistrationController'
+          }
+        }
+      })
+      .state('tabs.register', {
+      url: '/register',
+      views: {
+        'register-tab': {
+          templateUrl: 'views/register.html',
+          controller: 'RegistrationController'
+        }
+      }
+    })
+      .state('tabs.success', {
+      url: '/success',
+      views: {
+        'success-tab': {
+          templateUrl: 'views/success.html',
+          controller: 'SuccessController',
+          resolve: {
+            currentAuth: function(Authentication) {
+              return Authentication.requireAuth();
+            } //currentAuth
+          }//resolve
+        }
+      }
+    });
 
     $urlRouterProvider.otherwise('/tab/home');
   })
@@ -177,20 +219,20 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
       });
     }])
   .controller('ARController', ['$scope', 'Ionicitude', function ($scope, Ionicitude) {
-    $scope.launchAR = function (ref) {
-      try {
-        // The ref passed as an argument to Ionicitude.launchAR() must be the name
-        // of a directory in the wikitude-worlds directory.
-        Ionicitude.launchAR(ref)
-          .then(function () {
-            console.log('OK ! The ' + ref + ' AR World has been perfectly launched !');
-          })
-          .catch(function (error) {
-            console.log('Error while trying to launch the ' + ref + ' AR World.', error);
-          })
-      } catch (error) {
-        console.log('But... Why ?! Something happened ?', error);
-      }
+  $scope.launchAR = function (ref) {
+    try {
+      // The ref passed as an argument to Ionicitude.launchAR() must be the name
+      // of a directory in the wikitude-worlds directory.
+      Ionicitude.launchAR(ref)
+        .then(function () {
+          console.log('OK ! The ' + ref + ' AR World has been perfectly launched !');
+        })
+        .catch(function (error) {
+          console.log('Error while trying to launch the ' + ref + ' AR World.', error);
+        })
+    } catch (error) {
+      console.log('But... Why ?! Something happened ?', error);
     }
-  }])
+  }
+}])
 ;
