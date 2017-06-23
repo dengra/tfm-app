@@ -22,7 +22,7 @@ starter.factory('Authentication',
         user.email,
         user.password
       ).then(function(user) {
-        $location.path('/success');
+        $location.path('tab/success');
       }).catch(function(error) {
         $rootScope.message = error.message;
       }); //signInWithEmailAndPassword

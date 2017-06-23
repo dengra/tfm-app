@@ -25,13 +25,15 @@
   </ion-tab>
 
   <ion-tab title="Login" icon="ion-information-circled"
-    href="#/tab/login">
+    href="#/tab/login" ng-hide="currentUser" >
     <ion-nav-view name="login-tab"></ion-nav-view>
   </ion-tab>
+
   <ion-tab title="Register" icon="ion-information-circled"
-    href="#/tab/register">
+    href="#/tab/register" ng-hide="currentUser" >
     <ion-nav-view name="register-tab"></ion-nav-view>
   </ion-tab>
+
   <ion-tab title="Success" icon="ion-information-circled"
     href="#/tab/success">
     <ion-nav-view name="success-tab"></ion-nav-view>
