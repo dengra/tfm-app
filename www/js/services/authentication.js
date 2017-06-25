@@ -7,22 +7,22 @@ starter.factory('Authentication',
   var myObject;
 
   auth.$onAuthStateChanged(function(authUser) {
-    if(authUser) {
-      var userRef = ref.child('users').child(authUser.uid);
-      var userObj = $firebaseObject(userRef);
-      $rootScope.currentUser = userObj;
+    if(authUser) { //if an authenticated user exists...
+      var userRef = ref.child('users').child(authUser.uid); // gets a reference of the current user
+      var userObj = $firebaseObject(userRef); //stores that into this variable
+      $rootScope.currentUser = userObj; // puts that into the rootScope so its accesible from everywhere
     } else {
-      $rootScope.currentUser = '';
+      $rootScope.currentUser = ''; // otherwhise it gives it an empty string
     }
   });
 
   myObject = {
     login: function(user) {
-      auth.$signInWithEmailAndPassword(
-        user.email,
+      auth.$signInWithEmailAndPassword( //this is a firebase Method
+      user.email, //sends the user information to the database and compares
         user.password
       ).then(function(user) {
-        $location.path('tab/success');
+        $location.path('tab/home'); //redirects the user to the home page after logging in
       }).catch(function(error) {
         $rootScope.message = error.message;
       }); //signInWithEmailAndPassword
@@ -40,9 +40,9 @@ starter.factory('Authentication',
       auth.$createUserWithEmailAndPassword(
         user.email,
         user.password
-      ).then(function(regUser) {
+      ).then(function(regUser) {//the server sends a promise, after which the app reacts:
         var regRef = ref.child('users')
-          .child(regUser.uid).set({
+          .child.child(regUser.uid).set({
             date: firebase.database.ServerValue.TIMESTAMP,
             regUser: regUser.uid,
             firstname: user.firstname,

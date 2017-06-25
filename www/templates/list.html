@@ -21,26 +21,6 @@
 
   <!--SELECT LIST FOR CAMERA MODELS-->
 <div class="list bar bar-subheader">
-  <!--Test Select List-->
-<!--    <label class="item item-input item-select">
-      <div class="input-label">
-        Camera Model:
-      </div>
-      <select  ng-model="selectCamera" ng-init="selectCamera=''">
-        &lt;!&ndash;DROPDOWN LIST NACH "IONIC SELECT" https://ionicframework.com/docs/v1/components/#select&ndash;&gt;
-        &lt;!&ndash;FIX FOR UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
-        <option value="" selected>Select your Camera</option> &lt;!&ndash;ng-selected="true" value="" &ndash;&gt;
-        <option ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-        &lt;!&ndash;Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Halbformat&ndash;&gt;
-        <option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>
-        <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
-        &lt;!&ndash;Schleife durch die Kameras, zeigt eine Liste mit Kamera Varianten Vollformat&ndash;&gt;
-        <option>-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>
-        <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
-        &lt;!&ndash;Schleife durch Kamera-Daten und Filter unique, um Wiederholungen zu überspringen&ndash;&gt;
-        &lt;!&ndash; filter unique https://github.com/a8m/angular-filter#unique  | unique: 'level'&ndash;&gt;
-      </select>
-    </label>-->
     <label class="item item-input item-select">
       <div class="input-label">
         Camera
@@ -64,44 +44,13 @@
     </label><!--    <label class="item item-input item-select">-->
   </div> <!--div.list ende-->
 
-
-  <!--    <label class="bar bar-subheader  item item-input item-select">
-        <div class="input-label"></div>
-        &lt;!&ndash;FIXED UNDEFINED ITEM AS SEEN IN: https://stackoverflow.com/questions/17892220/angularjs-and-select-default-selected-options-are-removed&ndash;&gt;
-        <select ng-model="query"  ng-init="query='D3200'">&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-          <option ng-selected="true" value="" >Select your proficiency level</option>
-          <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
-        </select>
-
-    <select ng-model="query"  ng-init="query='D3200'"></select>&lt;!&ndash;placeholder="Select your Camera"&ndash;&gt;
-      <option ng-selected="true" value="" >Select your camera</option>
-    </label>-->
-
   <ion-content
     class="has-subheader">
     <ion-refresher on-refresh="doRefresh()">
     </ion-refresher>
-<div class="list"></div>
-<div class="list"></div>
-    <!--TODO AFTER DEV - delete for test for camera models -->
-    <!--TEST for CAMERA MODELS-->
-    <!--
-        <ion-list
-          show-delete="data.showDelete"
-          show-reorder="data.showReorder">
-          <ion-item ng-class="{'star': item.star}"
-                    ng-repeat='camera in cameras | filter: query '
-                    class="item-thumbnail-right item-icon-right
-                      item-text-wrap" href="#/tab/list/{{camera.shortname}}">
-            <img ng-src="img/{{camera.shortname}}-tn.png" alt="{{ camera.level }}">
-            <h2>{{camera.brand}} {{camera.shortname}}</h2>
-            <p>{{camera.format}} Sensor</p>
 
-
-          </ion-item>
-        </ion-list>
-    -->
-    <!--TEST for CAMERA MODELS ENDE-->
+    <div class="list"></div>
+    <div class="list"></div>
 
     <!--LIST showing LEARNING MODULES-->
     <ion-list type=""
@@ -110,10 +59,12 @@
 
       <ion-item ng-repeat='module in modules | filter: selectCamera | filter: selectModule'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
+
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
         <h2>{{module.title | uppercase }}</h2>
         <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
-        <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
+        <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"/>
+
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
         <ul ng-show="module.relevantmodels">
           <!--DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE-->
@@ -126,8 +77,8 @@
                             on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
 
         <!--Buttons with Dynamic AR content-->
-        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')"> 360° View
-          class="icon button-energized outline ion-ios-world-outline">
+        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')" class="icon button-energized outline ion-ios-world-outline">
+          S360° View
         </ion-option-button>
 
       </ion-item>

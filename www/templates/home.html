@@ -5,5 +5,22 @@
       <div class="h1">Augmented Learning</div>
       <p>Learn how to use your camera in a real world viewer.</p>
     </div>
+    <div class="welcome">
+    <!--Shows up when currentUser is logged out-->
+    <div ng-hide="currentUser">
+      <p>   <a ng-href="#/tab/home/login">Login</a></p>
+      <p>or <a ng-href="#/tab/home/register">register</a></p>
+    </div>
+
+    <!--Shows up when currentUser is logged in-->
+    <div class="userinfo" ng-show="currentUser" ng-controller="RegistrationController">
+      <span class="userinfo">Hi {{currentUser.firstname}}!</span>
+      <a ng-href="#/tab/list"><p>Start learning</p></a>
+    </div>
+
+    <div ng-show="currentUser">
+      <a ng-href="#/tab/home" ng-click="logout()">Logout</a>
+    </div>
+    </div>
   </ion-content>
 </ion-view>

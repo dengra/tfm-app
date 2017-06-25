@@ -1,14 +1,14 @@
 <ion-view view-title="Learning Map">
 
-  <div class="bar bar-subheader
+  <!--<div class="bar bar-subheader
     item-input-inset bar-light">
-    Choose your camera:        <label class="item-input-wrapper">
-          <i class="icon ion-search placeholder-icon"></i>
-          <input type="search" ng-model="query" placeholder="Search">
-        </label>
-
+    Choose your camera:
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" ng-model="query" placeholder="Search">
+    </label>
   </div>
-
+-->
   <!--Nested Loop in JavaScript Way-->
   <!--
       <div ng-repeat="model in temparray">
@@ -17,13 +17,14 @@
       </div>
   -->
 
-  <ion-content class="has-subheader">
-      <ion-list>
-        <ion-radio
-          ng-model="choice"  ng-repeat="camera in cameras" ng-value="{{camera.shortname}}" ng-show="camera.format == 'DX' ">
-          {{camera.shortname }}
-        </ion-radio>
-      </ion-list>
+  <ion-content class=""><!--has-subheader-->
+    <!--Eine Liste mit den Kamera Namen -->
+    <!--      <ion-list>
+            <ion-radio
+              ng-model="choice"  ng-repeat="camera in cameras"  ng-show="camera.format == 'DX' ">&lt;!&ndash;ng-value="{{camera.shortname}}"&ndash;&gt;
+              {{camera.shortname }}
+            </ion-radio>
+          </ion-list>-->
 
     <ion-refresher on-refresh="doRefresh()">
     </ion-refresher>

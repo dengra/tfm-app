@@ -1,9 +1,11 @@
 /* Empty. Add your own CSS if you like */
 
 body {
-  cursor: url('http://ionicframework.com/img/finger.png');
+  /*cursor: url('http://ionicframework.com/img/finger.png');*/
 }
-
+.welcome{
+  text-align: center;
+}
 /*
 .star>.item-content {
   background-color: #EEE8D6 !important;

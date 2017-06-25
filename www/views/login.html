@@ -1,14 +1,14 @@
-<ion-view view-title="Login">
-  <ion-content>
+<!--<ion-view view-title="Login">-->
+  <!--<ion-content>-->
 
-    <section class="card login">
+    <section class="card login" ><!--ng-hide="currentUser"-->
       <form name="myform"
             ng-submit="login()"
             novalidate>
 
         <div class="textintro">
           <h1>Hi there!</h1>
-          <p>Log-in to access the awesomeness!</p>
+          <p>Log-in to access the learning content!</p>
           <p class="message"
              ng-show="message"> {{ message }}</p>
         </div>
@@ -32,8 +32,10 @@
         <button type="submit" class="btn"
                 ng-disabled="myform.$invalid">Login
         </button>
-        <p>or <a ng-href="#/tab/register">register</a></p>
+        <p>or <a ng-href="#/tab/home/register">register</a></p>
       </form>
     </section>
+<!--
   </ion-content>
 </ion-view>
+-->
