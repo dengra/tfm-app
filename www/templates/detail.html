@@ -54,13 +54,13 @@
         </li>
       </ol><!--Procedure with Steps Ende -->
 
-      <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
-      <ul ng-show="module.relevantmodels"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model-->
+<!--      &lt;!&ndash;TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN &ndash;&gt;
+      <ul ng-show="module.relevantmodels">&lt;!&ndash;This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model&ndash;&gt;
         <h3>This module is available for Cameras: </h3>
         <li ng-repeat="relevantmodel in module.relevantmodels">
           <p><b>{{relevantmodel | uppercase }}</b></p>
         </li>
-      </ul>
+      </ul>-->
 
       <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantmodels"-->
       <!--MODEL in RELEVANTMODELS-->
@@ -69,6 +69,7 @@
               ng-repeat="relevantmodel in module.relevantmodels | filter : wichcamera"
               ng-click="launchAR('{{relevantmodel}}-{{module.ARView.URL}}')">
         {{relevantmodel}}-{{module.ARView.URL}}
+        <!--Dynamic URL Test-->
         <!--360° View-->
       </button>
 

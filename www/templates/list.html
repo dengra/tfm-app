@@ -17,8 +17,8 @@
       <div class="input-label">
         Camera
       </div>
-      <select  ng-model="select.camera" ng-init="select.camera=''">
-        <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+      <select  ng-model="select.camera" ng-init="select.camera='a very long value for an empty list'"><!---->
+        <option value="a very long value for an empty list" ng-selected="true">Select your Camera</option> <!-- value="" -->
         <option ng-repeat='camera in cameras' value="{{camera.shortname}}"  ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
         <!--<option>-------------</option>-->
         <!--<option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>-->
@@ -51,10 +51,20 @@
               show-delete="data.showDelete"
               show-reorder="data.showReorder">
 
+      <!--Test für multiple Ion Items pro Modul-->
+      <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
+                class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
+        <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">-->
+        <p ng-repeat="model in module.relevantmodels">Test:{{model}}-{{module.shortname}} </p>
+      </ion-item> <!--Test für multiple Ion Items pro Modul Ende-->
+
+
       <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
 
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
+
+
         <h2>{{module.title | uppercase }}</h2>
         <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"/>
