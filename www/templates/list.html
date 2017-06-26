@@ -10,40 +10,34 @@
     </button>
   </ion-nav-buttons>
 
-  <!--SEARCH FIELD QUERY -->
-  <!--  <div class="bar bar-subheader item-input-inset bar-light">
-      <label class="item-input-wrapper">
-        <i class="icon ion-search placeholder-icon"></i>
-        <input type="search" ng-model="query" placeholder="Search your Camera">
-      </label>
-    </div>-->
-  <!--SEARCH FIELD QUERY END -->
-
-  <!--SELECT LIST FOR CAMERA MODELS-->
+  <!--SELECT FORM -->
 <div class="list bar bar-subheader">
-    <label class="item item-input item-select">
+  <!--SELECT LIST FOR CAMERA MODELS-->
+  <label class="item item-input item-select">
       <div class="input-label">
         Camera
       </div>
-      <select  ng-model="selectCamera" ng-init="selectCamera=''">
+      <select  ng-model="select.camera" ng-init="select.camera=''">
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
-        <option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+        <option ng-repeat='camera in cameras' value="{{camera.shortname}}"  ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
         <!--<option>-------------</option>-->
-        <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
+        <!--<option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>-->
       </select>
     </label>
 
+  <!--SELECT LIST FOR SKILLS-->
     <label class="item item-input item-select">
       <div class="input-label">
         Skill level
       </div>
-      <select  ng-model="selectModule" ng-init="selectModule=''">
+      <select  ng-model="select.module" ng-init="select.module=''">
         <option value="" selected>Skill level</option> <!--ng-selected="true" value="" -->
         <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
       </select>
     </label><!--    <label class="item item-input item-select">-->
-  </div> <!--div.list ende-->
+  </div>   <!--SELECT FORM ENDE-->
 
+<!--LEARNING MODULES INHALT-->
   <ion-content
     class="has-subheader">
     <ion-refresher on-refresh="doRefresh()">
@@ -52,12 +46,12 @@
     <div class="list"></div>
     <div class="list"></div>
 
-    <!--LIST showing LEARNING MODULES-->
+    <!--LIST ITEMS showing LEARNING MODULES-->
     <ion-list type=""
               show-delete="data.showDelete"
               show-reorder="data.showReorder">
 
-      <ion-item ng-repeat='module in modules | filter: selectCamera | filter: selectModule'
+      <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
 
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
@@ -77,8 +71,9 @@
                             on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
 
         <!--Buttons with Dynamic AR content-->
-        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')" class="icon button-energized outline ion-ios-world-outline">
-          S360° View
+        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')"
+                           class="icon button-energized outline ion-ios-world-outline">
+          <!--<br>360° View-->
         </ion-option-button>
 
       </ion-item>

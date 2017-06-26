@@ -150,7 +150,7 @@ starter.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvide
       }
     });
 
-  $urlRouterProvider.otherwise('/tab/home');
+  $urlRouterProvider.otherwise('/tab/list');
 })
   .controller('ListController', ['$scope', '$http', '$state',
     function ($scope, $http, $state) {
@@ -161,13 +161,14 @@ starter.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvide
         $scope.cameras = data.cameras;
         $scope.whichcamera = $state.params.cId;
 
-/*
-        $scope.cameramodules = data.cameras.modules;
-*/
 
         $scope.cameras = data.cameras;
         $scope.whichcamera = $state.params.cId;
 
+        $scope.relevantmodels = data.modules.relevantmodels;
+        //$scope.relevantURL = module in modules;
+
+        $scope.URLtest = data.modules.relevantmodels;
 
 
         $scope.data = {showDelete: false, showReorder: false};

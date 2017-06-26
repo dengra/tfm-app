@@ -66,9 +66,13 @@
       <!--MODEL in RELEVANTMODELS-->
 
       <button class="button button-block button-positive ion-ios-world-outline"
-              ng-click="launchAR('{{module.ARView.URL}}')">
-        360° View
+              ng-repeat="relevantmodel in module.relevantmodels | filter : wichcamera"
+              ng-click="launchAR('{{relevantmodel}}-{{module.ARView.URL}}')">
+        {{relevantmodel}}-{{module.ARView.URL}}
+        <!--360° View-->
       </button>
+
+
     </ion-item>
   </ion-content>
 </ion-view>
