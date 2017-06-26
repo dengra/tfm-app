@@ -32,8 +32,8 @@
       "brand": "Nikon"
     },
     {
-      "format": "D90",
-      "shortname": "DX",
+      "format": "FX",
+      "shortname": "D90",
       "brand": "Nikon"
     },
     {
@@ -49,13 +49,88 @@
   ],
   "modules": [
     {
-      "title": "Get Started with your  ",
+      "title": "Get Started with your camera",
       "level": "beginner",
       "shortname": "getting-started",
       "relevantmodels": [
-        "D3200",
-        "D3300",
-        "D5200",
+        "D3200"
+      ],
+      "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3200-getting-started",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Get Started with your camera",
+      "level": "beginner",
+      "shortname": "getting-started",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3300-getting-started",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Get Started with your camera",
+      "level": "beginner",
+      "shortname": "getting-started",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D5200-getting-started",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Get Started with your camera",
+      "level": "beginner",
+      "shortname": "getting-started",
+      "relevantmodels": [
         "D750"
       ],
       "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
@@ -66,7 +141,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "getting-started",
+        "URL": "D750-getting-started",
         "needs": [
           {
             "camera": "front"
@@ -82,9 +157,84 @@
       "level": "beginner",
       "shortname": "shoot-first-picture",
       "relevantmodels": [
-        "D3200",
-        "D3300",
-        "D5200",
+        "D3200"
+      ],
+      "description": "Shoot an amazing first picture!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3200-shoot-first-picture",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot your first picture",
+      "level": "beginner",
+      "shortname": "shoot-first-picture",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "Shoot an amazing first picture!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3300-shoot-first-picture",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot your first picture",
+      "level": "beginner",
+      "shortname": "shoot-first-picture",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "Shoot an amazing first picture!",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D5200-shoot-first-picture",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot your first picture",
+      "level": "beginner",
+      "shortname": "shoot-first-picture",
+      "relevantmodels": [
         "D750"
       ],
       "description": "Shoot an amazing first picture!",
@@ -95,7 +245,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "shoot-first-picture",
+        "URL": "D750-shoot-first-picture",
         "needs": [
           {
             "camera": "front"
@@ -110,6 +260,9 @@
       "title": "Main camera components",
       "level": "beginner",
       "shortname": "main-components",
+      "relevantmodels": [
+        "D3200"
+      ],
       "description": "Learn where to find the most important parts of your camera and what they do",
       "steps": [
         "Insert the battery",
@@ -118,7 +271,85 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "main-components",
+        "URL": "D3200-main-components",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Main camera components",
+      "level": "beginner",
+      "shortname": "main-components",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "Learn where to find the most important parts of your camera and what they do",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3300-main-components",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Main camera components",
+      "level": "beginner",
+      "shortname": "main-components",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "Learn where to find the most important parts of your camera and what they do",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D5200-main-components",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Main camera components",
+      "level": "beginner",
+      "shortname": "main-components",
+      "relevantmodels": [
+        "D750"
+      ],
+      "description": "Learn where to find the most important parts of your camera and what they do",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D750-main-components",
         "needs": [
           {
             "camera": "front"
@@ -134,9 +365,84 @@
       "level": "intermediate",
       "shortname": "first_intermediate_task",
       "relevantmodels": [
-        "D3200",
-        "D3300",
-        "D5200",
+        "D3200"
+      ],
+      "description": "Random intermediate Task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "first-intermediate-task",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Improve your Skills",
+      "level": "intermediate",
+      "shortname": "first_intermediate_task",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "Random intermediate Task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "first-intermediate-task",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Improve your Skills",
+      "level": "intermediate",
+      "shortname": "first_intermediate_task",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "Random intermediate Task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "first-intermediate-task",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Improve your Skills",
+      "level": "intermediate",
+      "shortname": "first_intermediate_task",
+      "relevantmodels": [
         "D750"
       ],
       "description": "Random intermediate Task",
@@ -162,6 +468,9 @@
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "shoot-aperture-mode",
+      "relevantmodels": [
+        "D3200"
+      ],
       "description": "Shoot in 'Aperture Mode'",
       "steps": [
         "Change the RAD to 'Aperture Mode",
@@ -170,7 +479,85 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "shoot-aperture-mode",
+        "URL": "D3200-shoot-aperture-mode",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot in 'Aperture Mode'",
+      "level": "intermediate",
+      "shortname": "shoot-aperture-mode",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "Shoot in 'Aperture Mode'",
+      "steps": [
+        "Change the RAD to 'Aperture Mode",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D3300-shoot-aperture-mode",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot in 'Aperture Mode'",
+      "level": "intermediate",
+      "shortname": "shoot-aperture-mode",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "Shoot in 'Aperture Mode'",
+      "steps": [
+        "Change the RAD to 'Aperture Mode",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D5200-shoot-aperture-mode",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shoot in 'Aperture Mode'",
+      "level": "intermediate",
+      "shortname": "shoot-aperture-mode",
+      "relevantmodels": [
+        "D90"
+      ],
+      "description": "Shoot in 'Aperture Mode'",
+      "steps": [
+        "Change the RAD to 'Aperture Mode",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "D90-shoot-aperture-mode",
         "needs": [
           {
             "camera": "front"
@@ -185,6 +572,35 @@
       "title": "Cool complicated task",
       "level": "advanced",
       "shortname": "first-advanced-task",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "This is a very complicated task",
+      "steps": [
+        "Insert the battery",
+        "Insert the SD Card",
+        "Turn on the camera",
+        "You´re ready to go :-)"
+      ],
+      "ARView": {
+        "URL": "first-advanced-task",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cool complicated task",
+      "level": "advanced",
+      "shortname": "first-advanced-task",
+      "relevantmodels": [
+        "D90"
+      ],
       "description": "This is a very complicated task",
       "steps": [
         "Insert the battery",
@@ -207,21 +623,113 @@
     {
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
-      "shortname": "exchange-lense",
+      "shortname": "D3200-exchange-lense",
       "relevantmodels": [
-        "D3200",
-        "D3300",
-        "D5200",
-        "D750",
-        "D90"
+        "D3200"
       ],
-      "description": "This is a very complicated task",
+      "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
       "steps": [
         "Press the lense release button",
         "Turn the lense 90 degrees clock wise"
       ],
       "ARView": {
-        "URL": "exchange-lense",
+        "URL": "D3200-exchange-lense",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Exchange the lense for your Camera",
+      "level": "advanced",
+      "shortname": "D3300-exchange-lense",
+      "relevantmodels": [
+        "D3300"
+      ],
+      "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
+      "steps": [
+        "Press the lense release button",
+        "Turn the lense 90 degrees clock wise"
+      ],
+      "ARView": {
+        "URL": "D3300-exchange-lense",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Exchange the lense for your Camera",
+      "level": "advanced",
+      "shortname": "D5200-exchange-lense",
+      "relevantmodels": [
+        "D5200"
+      ],
+      "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
+      "steps": [
+        "Press the lense release button",
+        "Turn the lense 90 degrees clock wise"
+      ],
+      "ARView": {
+        "URL": "D5200-exchange-lense",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Exchange the lense for your Camera",
+      "level": "advanced",
+      "shortname": "D750-exchange-lense",
+      "relevantmodels": [
+        "D750"
+      ],
+      "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
+      "steps": [
+        "Press the lense release button",
+        "Turn the lense 90 degrees clock wise"
+      ],
+      "ARView": {
+        "URL": "D750-exchange-lense",
+        "needs": [
+          {
+            "camera": "front"
+          },
+          {
+            "type": "image recognition"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Exchange the lense for your Camera",
+      "level": "advanced",
+      "shortname": "D90-exchange-lense",
+      "relevantmodels": [
+        "D90"
+      ],
+      "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
+      "steps": [
+        "Press the lense release button",
+        "Turn the lense 90 degrees clock wise"
+      ],
+      "ARView": {
+        "URL": "D90-exchange-lense",
         "needs": [
           {
             "camera": "front"

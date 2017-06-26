@@ -48,7 +48,7 @@
         <p>{{module.description}}</p>
         <p>{{module.level | uppercase | limitTo: 100}}
           {{ module.bio.length > 150 ? '...' : '' }}</p>
-
+        <p ng-repeat="cameramodel in module.relevantmodels">{{cameramodel}}</p>
 
       </ion-item>
     </ion-list>

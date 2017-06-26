@@ -41,7 +41,7 @@
     -->
     <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
     <ion-item class="item-text-wrap"
-              ng-repeat="module in modules | filter: { shortname: whichmodule }">
+              ng-repeat="module in modules | filter: { shortname: whichmodule}  "><!--| filter: { shortname: select.camera }-->
       <h2>{{ module.title }}</h2>
       <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.title }} {{module.level | uppercase}}" style="max-height: 50px">-->
       <p>{{ module.description }}</p>
@@ -67,8 +67,10 @@
 
       <button class="button button-block button-positive ion-ios-world-outline"
               ng-repeat="relevantmodel in module.relevantmodels | filter : wichcamera"
-              ng-click="launchAR('{{relevantmodel}}-{{module.ARView.URL}}')">
-        {{relevantmodel}}-{{module.ARView.URL}}
+              ng-click="launchAR('{{module.ARView.URL}}')">
+              <!--ng-click="launchAR('{{relevantmodel}}-{{module.ARView.URL}}')">-->
+        <!--{{relevantmodel}}-{{module.shortname}}-->
+        {{module.ARView.URL}}
         <!--Dynamic URL Test-->
         <!--360° View-->
       </button>
