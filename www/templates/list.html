@@ -1,4 +1,15 @@
-<ion-view view-title="Learning Content">
+<ion-view view-title="Learning Content" ng-if="!currentUser"><!---->
+  <div class="bar bar-subheader">
+    <div class="card has-subheader">
+      <div class="item item-text-wrap">
+        Log in to see the learning content
+      </div>
+    </div>
+    <a class="button button-block button-positive" href="#/tab/home/login">Log me in</a>
+  </div>
+</ion-view>
+
+<ion-view view-title="Learning Content" ng-if="currentUser"><!---->
   <ion-nav-buttons side="left">
     <button class="button button-icon ion-minus-circled"
             ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
@@ -11,33 +22,36 @@
   </ion-nav-buttons>
 
   <!--SELECT FORM -->
-<div class="list bar bar-subheader">
-  <!--SELECT LIST FOR CAMERA MODELS-->
-  <label class="item item-input item-select">
+  <div class="list bar bar-subheader">
+    <!--SELECT LIST FOR CAMERA MODELS-->
+    <label class="item item-input item-select">
       <div class="input-label">
         Camera
       </div>
-      <select  ng-model="select.camera" ng-init="select.camera='a very long value for an empty list'"><!---->
-        <option value="a very long value for an empty list" ng-selected="true">Select your Camera</option> <!-- value="" -->
-        <option ng-repeat='camera in cameras' value="{{camera.shortname}}"  ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+      <select ng-model="select.camera" ng-init="select.camera='a very long value for an empty list'"><!---->
+        <option value="a very long value for an empty list" ng-selected="true">Select your Camera</option>
+        <!-- value="" -->
+        <option ng-repeat='camera in cameras' value="{{camera.shortname}}" ng-show="camera.format == 'DX'">
+          {{camera.shortname}}
+        </option>
         <!--<option>-------------</option>-->
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
       </select>
     </label>
 
-  <!--SELECT LIST FOR SKILLS-->
+    <!--SELECT LIST FOR SKILLS-->
     <label class="item item-input item-select">
       <div class="input-label">
         Skill level
       </div>
-      <select  ng-model="select.module" ng-init="select.module=''">
+      <select ng-model="select.module" ng-init="select.module=''">
         <option value="" selected>Skill level</option> <!--ng-selected="true" value="" -->
         <option ng-repeat="module in modules | unique: 'level'" ng-show="module.level">{{module.level}}</option>
       </select>
     </label><!--    <label class="item item-input item-select">-->
   </div>   <!--SELECT FORM ENDE-->
 
-<!--LEARNING MODULES INHALT-->
+  <!--LEARNING MODULES INHALT-->
   <ion-content
     class="has-subheader">
     <ion-refresher on-refresh="doRefresh()">
@@ -52,12 +66,11 @@
               show-reorder="data.showReorder">
 
       <!--Test für multiple Ion Items pro Modul-->
-<!--      <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
-                class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
-        &lt;!&ndash;<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">&ndash;&gt;
-        <p ng-repeat="model in module.relevantmodels">Test:{{model}}-{{module.shortname}} </p>
-      </ion-item> &lt;!&ndash;Test für multiple Ion Items pro Modul Ende&ndash;&gt;-->
-
+      <!--      <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
+                      class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
+              &lt;!&ndash;<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">&ndash;&gt;
+              <p ng-repeat="model in module.relevantmodels">Test:{{model}}-{{module.shortname}} </p>
+            </ion-item> &lt;!&ndash;Test für multiple Ion Items pro Modul Ende&ndash;&gt;-->
 
 
       <ion-item ng-repeat='module in modules | filter:select.camera:strict | filter: select.module'
@@ -68,13 +81,13 @@
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"/>
 
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
-<!--        <ul ng-show="module.relevantmodels">
-          &lt;!&ndash;DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE&ndash;&gt;
-          <p>This course is available for Cameras: </p>
-          <li ng-repeat="relevantmodel in module.relevantmodels">
-            <p>{{relevantmodel | uppercase }}</p>
-          </li>
-        </ul>--><!--DELETE AFTER DEVELOPMENT ENDE-->
+        <!--        <ul ng-show="module.relevantmodels">
+                  &lt;!&ndash;DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE&ndash;&gt;
+                  <p>This course is available for Cameras: </p>
+                  <li ng-repeat="relevantmodel in module.relevantmodels">
+                    <p>{{relevantmodel | uppercase }}</p>
+                  </li>
+                </ul>--><!--DELETE AFTER DEVELOPMENT ENDE-->
         <ion-reorder-button class="ion-navicon" on-reorder="moveItem(module, $fromIndex, $toIndex)"/>
 
         <!--Buttons with Dynamic AR content-->

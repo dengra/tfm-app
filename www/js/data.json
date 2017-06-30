@@ -52,7 +52,7 @@
       "title": "Get Started with your camera",
       "level": "beginner",
       "shortname": "getting-started",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
@@ -65,12 +65,8 @@
       "ARView": {
         "URL": "D3200-getting-started",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -78,7 +74,7 @@
       "title": "Get Started with your camera",
       "level": "beginner",
       "shortname": "getting-started",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
@@ -91,12 +87,8 @@
       "ARView": {
         "URL": "D3300-getting-started",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -104,7 +96,7 @@
       "title": "Get Started with your camera",
       "level": "beginner",
       "shortname": "getting-started",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
@@ -117,12 +109,8 @@
       "ARView": {
         "URL": "D5200-getting-started",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -130,7 +118,7 @@
       "title": "Get Started with your camera",
       "level": "beginner",
       "shortname": "getting-started",
-      "relevantmodels": [
+      "relevantcameras": [
         "D750"
       ],
       "description": "Quick guide with just the necessary information to set up your cam and start shooting straight away!",
@@ -143,12 +131,8 @@
       "ARView": {
         "URL": "D750-getting-started",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -156,7 +140,7 @@
       "title": "Shoot your first picture",
       "level": "beginner",
       "shortname": "shoot-first-picture",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "Shoot an amazing first picture!",
@@ -169,12 +153,8 @@
       "ARView": {
         "URL": "D3200-shoot-first-picture",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -182,7 +162,7 @@
       "title": "Shoot your first picture",
       "level": "beginner",
       "shortname": "shoot-first-picture",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "Shoot an amazing first picture!",
@@ -195,12 +175,8 @@
       "ARView": {
         "URL": "D3300-shoot-first-picture",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -208,7 +184,7 @@
       "title": "Shoot your first picture",
       "level": "beginner",
       "shortname": "shoot-first-picture",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "Shoot an amazing first picture!",
@@ -221,12 +197,8 @@
       "ARView": {
         "URL": "D5200-shoot-first-picture",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -234,7 +206,7 @@
       "title": "Shoot your first picture",
       "level": "beginner",
       "shortname": "shoot-first-picture",
-      "relevantmodels": [
+      "relevantcameras": [
         "D750"
       ],
       "description": "Shoot an amazing first picture!",
@@ -247,12 +219,8 @@
       "ARView": {
         "URL": "D750-shoot-first-picture",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -260,7 +228,7 @@
       "title": "Main camera components",
       "level": "beginner",
       "shortname": "main-components",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "Learn where to find the most important parts of your camera and what they do",
@@ -273,12 +241,8 @@
       "ARView": {
         "URL": "D3200-main-components",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -286,7 +250,7 @@
       "title": "Main camera components",
       "level": "beginner",
       "shortname": "main-components",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "Learn where to find the most important parts of your camera and what they do",
@@ -299,12 +263,8 @@
       "ARView": {
         "URL": "D3300-main-components",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -312,7 +272,7 @@
       "title": "Main camera components",
       "level": "beginner",
       "shortname": "main-components",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "Learn where to find the most important parts of your camera and what they do",
@@ -325,12 +285,8 @@
       "ARView": {
         "URL": "D5200-main-components",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -338,7 +294,7 @@
       "title": "Main camera components",
       "level": "beginner",
       "shortname": "main-components",
-      "relevantmodels": [
+      "relevantcameras": [
         "D750"
       ],
       "description": "Learn where to find the most important parts of your camera and what they do",
@@ -351,12 +307,8 @@
       "ARView": {
         "URL": "D750-main-components",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -364,7 +316,7 @@
       "title": "Improve your Skills",
       "level": "intermediate",
       "shortname": "first_intermediate_task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "Random intermediate Task",
@@ -377,12 +329,8 @@
       "ARView": {
         "URL": "first-intermediate-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -390,7 +338,7 @@
       "title": "Improve your Skills",
       "level": "intermediate",
       "shortname": "first_intermediate_task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "Random intermediate Task",
@@ -403,12 +351,8 @@
       "ARView": {
         "URL": "first-intermediate-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -416,7 +360,7 @@
       "title": "Improve your Skills",
       "level": "intermediate",
       "shortname": "first_intermediate_task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "Random intermediate Task",
@@ -429,12 +373,8 @@
       "ARView": {
         "URL": "first-intermediate-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -442,7 +382,7 @@
       "title": "Improve your Skills",
       "level": "intermediate",
       "shortname": "first_intermediate_task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D750"
       ],
       "description": "Random intermediate Task",
@@ -455,12 +395,8 @@
       "ARView": {
         "URL": "first-intermediate-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -468,7 +404,7 @@
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "shoot-aperture-mode",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "Shoot in 'Aperture Mode'",
@@ -481,12 +417,8 @@
       "ARView": {
         "URL": "D3200-shoot-aperture-mode",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -494,7 +426,7 @@
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "shoot-aperture-mode",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "Shoot in 'Aperture Mode'",
@@ -507,12 +439,8 @@
       "ARView": {
         "URL": "D3300-shoot-aperture-mode",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -520,7 +448,7 @@
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "shoot-aperture-mode",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "Shoot in 'Aperture Mode'",
@@ -533,12 +461,8 @@
       "ARView": {
         "URL": "D5200-shoot-aperture-mode",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -546,7 +470,7 @@
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
       "shortname": "shoot-aperture-mode",
-      "relevantmodels": [
+      "relevantcameras": [
         "D90"
       ],
       "description": "Shoot in 'Aperture Mode'",
@@ -559,12 +483,8 @@
       "ARView": {
         "URL": "D90-shoot-aperture-mode",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -572,7 +492,7 @@
       "title": "Cool complicated task",
       "level": "advanced",
       "shortname": "first-advanced-task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "This is a very complicated task",
@@ -585,12 +505,8 @@
       "ARView": {
         "URL": "first-advanced-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -598,7 +514,7 @@
       "title": "Cool complicated task",
       "level": "advanced",
       "shortname": "first-advanced-task",
-      "relevantmodels": [
+      "relevantcameras": [
         "D90"
       ],
       "description": "This is a very complicated task",
@@ -611,12 +527,8 @@
       "ARView": {
         "URL": "first-advanced-task",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -624,7 +536,7 @@
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
       "shortname": "D3200-exchange-lense",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3200"
       ],
       "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
@@ -635,12 +547,8 @@
       "ARView": {
         "URL": "D3200-exchange-lense",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -648,7 +556,7 @@
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
       "shortname": "D3300-exchange-lense",
-      "relevantmodels": [
+      "relevantcameras": [
         "D3300"
       ],
       "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
@@ -659,12 +567,8 @@
       "ARView": {
         "URL": "D3300-exchange-lense",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -672,7 +576,7 @@
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
       "shortname": "D5200-exchange-lense",
-      "relevantmodels": [
+      "relevantcameras": [
         "D5200"
       ],
       "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
@@ -683,12 +587,8 @@
       "ARView": {
         "URL": "D5200-exchange-lense",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -696,7 +596,7 @@
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
       "shortname": "D750-exchange-lense",
-      "relevantmodels": [
+      "relevantcameras": [
         "D750"
       ],
       "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
@@ -707,12 +607,8 @@
       "ARView": {
         "URL": "D750-exchange-lense",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     },
@@ -720,7 +616,7 @@
       "title": "Exchange the lense for your Camera",
       "level": "advanced",
       "shortname": "D90-exchange-lense",
-      "relevantmodels": [
+      "relevantcameras": [
         "D90"
       ],
       "description": "With DSLR cameras, you can exchange the lense of your Camera, allowing you to take different kind of picture. However, this is complicated. Here is how to do it:",
@@ -731,12 +627,8 @@
       "ARView": {
         "URL": "D90-exchange-lense",
         "needs": [
-          {
-            "camera": "front"
-          },
-          {
-            "type": "image recognition"
-          }
+          {"camera": "front"},
+          {"type": "image_tracking"}
         ]
       }
     }

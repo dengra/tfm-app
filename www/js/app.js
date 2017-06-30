@@ -36,7 +36,7 @@ starter.run(function ($rootScope, $location, $ionicPlatform, Ionicitude) {
     // The code placed inside the $ionicPlatform.ready() function is executed only when the device is ready,
     // so this is a perfect place to call the Ionicitude.init() method.
     Ionicitude.init({
-      reqFeatures: ['2d_tracking']
+      reqFeatures: ['image_tracking']
     })
       .then(function () {
         console.log('Here you go. Ionicitude is fully initialized !');
@@ -165,10 +165,10 @@ starter.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvide
         $scope.cameras = data.cameras;
         $scope.whichcamera = $state.params.cId;
 
-        $scope.relevantmodels = data.modules.relevantmodels;
+        $scope.relevantcameras = data.modules.relevantcameras;
         //$scope.relevantURL = module in modules;
 
-        $scope.URLtest = data.modules.relevantmodels;
+        $scope.URLtest = data.modules.relevantcameras;
 
 
         $scope.data = {showDelete: false, showReorder: false};

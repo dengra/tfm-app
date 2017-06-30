@@ -13,7 +13,7 @@
   <!--
       <div ng-repeat="model in temparray">
         <div>model.shortname</div>
-        <div>model.relevantmodel</div>
+        <div>model.relevantcamera</div>
       </div>
   -->
 
@@ -48,7 +48,7 @@
         <p>{{module.description}}</p>
         <p>{{module.level | uppercase | limitTo: 100}}
           {{ module.bio.length > 150 ? '...' : '' }}</p>
-        <p ng-repeat="cameramodel in module.relevantmodels">{{cameramodel}}</p>
+        <p ng-repeat="cameramodel in module.relevantcameras">{{cameramodel}}</p>
 
       </ion-item>
     </ion-list>
