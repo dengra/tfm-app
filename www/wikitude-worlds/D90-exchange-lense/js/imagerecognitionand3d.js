@@ -151,11 +151,11 @@ var World = {
         World.appearingAnimation.start();
       }
 
-      var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 50%; padding-right: 15px;'";
-      var cssDivRight = " style='display: table-cell;vertical-align: middle; text-align: left;'";
+      var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 20%; padding-right: 15px;'";
+      var cssDivRight = " style='display: table-cell;vertical-align: middle; text-align: left; width: 50%; '";
       document.getElementById('loadingMessage').innerHTML =
-        "<div" + cssDivLeft + ">Scan the camera to learn how to change the lense</div>" +
-        "<div" + cssDivRight + "><img src='assets/car.png'/></div>";
+        "<div" + cssDivLeft + "><img src='assets/car.png'/></div>" +
+        "<div" + cssDivRight + ">Scan the camera to learn how to change the lense</div>";
     }
   },
 
@@ -193,8 +193,21 @@ var World = {
 
   resetModel: function resetModelFn() {
     World.model.rotate.z = 0;
-  }
+  },
 
+  closeScreen: function closeScreenFn() {
+    document.location = "architectsdk://closeScreen";
+  },
+
+  showHelp: function showHelpFn() {
+    var help = document.getElementById('help');
+    if (help.style.display === 'none') {
+      help.style.display = 'block';
+    } else {
+      help.style.display = 'none';
+    }
+
+  }
 };
 
 World.init();

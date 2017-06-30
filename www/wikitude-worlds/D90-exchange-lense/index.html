@@ -2,22 +2,39 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta content="width=device-width,initial-scale=1, maximum-scale=5, user-scalable=yes" name="viewport">
 
-    <title></title>
+  <title></title>
 
-    <script src="architect://architect.js"></script>
-    <script type="text/javascript" src="../ade.js"></script>
-
-    <link rel="stylesheet" href="../AR-css/default.css">
+  <script src="architect://architect.js"></script>
+  <script type="text/javascript" src="../ade.js"></script>
+  <link rel="stylesheet" href="../AR-css/default.css">
+  <script src="js/imagerecognitionand3d.js"></script>
+  <!--<script src="../AR-js/all-views.js"></script>-->
 </head>
 
+
 <body>
-    <div id="loadingMessage" class="info">Loading ...</div>
+<nav class="nav">
+  <div id="loadingMessage" class="info">Loading ...</div>
+  <!--<div id="start" class="button">start animation</div>-->
 
-    <script src="js/imagerecognitionand3d.js"></script>
+  <div id="backbtn">
+    <a href='javascript: World.closeScreen();'>
+      <img src="../AR-View-assets/ios-arrow-back.svg" style="max-width: 50px; max-height: 50px;"/>
+    </a>
+  </div>
 
-    <div id="start" class="button">start animation</div>
+  <div id="helpbtn">
+    <a href="javascript: World.showHelp();">
+      <img class="helppic" src="../AR-View-assets/ios-help-outline.svg"/>
+    </a>
+  </div>
+
+</nav>
+<div id="help" style="display: none">Hold your camera steady and point it at one of our Smart Posters.</div>
+<!--Here comes the help-->
+
 </body>
 </html>

@@ -27,15 +27,17 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
       // The code placed inside the $ionicPlatform.ready() function is executed only when the device is ready,
       // so this is a perfect place to call the Ionicitude.init() method.
       Ionicitude.init({
-        reqFeatures: ['2d_tracking']
+        reqFeatures: ['image_tracking']
       })
         .then(function () {
-          console.log('Here you go. Ionicitude is fully initialized !');
+          console.log('Here you go. Ionicitude is fully initialized !')
           // Now that Ionicitude is initialized, we can safely add the Actions that could be called from within an AR View.
           // Note that these actions will be executed by the Ionic WebView and in its context.
           // To call this captureScreen action, there should be, in one of your AR World JS code and assuming that you're using Ionicitude's CHM, something like :
           //  document.location = architectsdk://captureScreen
-          // Ionicitude
+           Ionicitude
+            .addAction(closeScreen)
+            .addAction(showHelp);
           //   .addAction(captureScreen)
           //   .addAction(markerselected);
 
@@ -43,6 +45,23 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
         .catch(function (error) {
           console.log("Hu-ho..! Something has failed !", error);
         });
+
+      function closeScreen(service) {
+        console.log('closeScreen accessed');
+        // testMe();
+        service.close()
+      }
+
+      function showHelp(service) {
+        var help = document.getElementById('help');
+        if (help.style.display === 'none') {
+          help.style.display = 'block';
+        } else {
+          help.style.display = 'none';
+        }
+        console.log("holi from app.js");
+        // service.close()
+      }
     });
   })
   .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
@@ -154,25 +173,6 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
         $scope.cameras = data.cameras;
         $scope.whichcamera = $state.params.aId;
-
-        //Nested Loop in JavaScript Way
-        /*      $scope.temparray = []
-
-         var listElemt = null
-         for (var i = 0; i < $scope.module.length; i++) {
-         for (var j = 0; j < $scope.cameras.length; j++) {
-
-
-         if(i.relevantmodels == cameras.shortname) {
-         var listElement =
-         {
-         shortname: camera.shortname,
-         relev: i.relevantmodels
-         }
-         $scope.temparray.push(listElemt)
-         }
-         }
-         }*/
 
       });
     }])

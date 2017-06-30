@@ -55,15 +55,15 @@
       </ol><!--Procedure with Steps Ende -->
 
       <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
-      <ul ng-show="module.relevantmodels"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantmodels exists in the data model-->
+      <ul ng-show="module.relevantcameras"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantcameras exists in the data model-->
         <h3>This module is available for Cameras: </h3>
-        <li ng-repeat="relevantmodel in module.relevantmodels">
-          <p><b>{{relevantmodel | uppercase }}</b></p>
+        <li ng-repeat="relevantcamera in module.relevantcameras">
+          <p><b>{{relevantcamera | uppercase }}</b></p>
         </li>
       </ul>
 
-      <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantmodels"-->
-      <!--MODEL in RELEVANTMODELS-->
+      <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantcameras"-->
+      <!--MODEL in RELEVANTCAMERAS-->
 
       <button class="button button-block button-positive ion-ios-world-outline"
               ng-click="launchAR('{{module.ARView.URL}}')">
