@@ -1,5 +1,5 @@
 var World = {
-/*  closeScreen: function closeScreenFn() {
+  closeScreen: function closeScreenFn() {
     document.location = "architectsdk://closeScreen";
   },
 
@@ -11,5 +11,5 @@ var World = {
       help.style.display = 'none';
     }
 
-  }*/
+  }
 };

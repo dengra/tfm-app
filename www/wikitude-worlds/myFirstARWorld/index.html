@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+
+  <title></title>
+
+  <script src="architect://architect.js"></script>
+  <script type="text/javascript" src="../common-assets/ade.js"></script>
+
+  <link rel="stylesheet" href="../../css/ionic.app.min.css">
+  <link rel="stylesheet" href="../common-assets/css/default.css">
+</head>
+<script src="js/GamesPostersView.js"></script>
+<script type="text/javascript" src="../common-assets/js/closescreen.js"></script>
+
+<body>
+
+<nav class="bar bar-header bar-positive">
+  <button onclick="World.closeScreen()" id="backbtn" class=" navbutton button button-icon icon ion-ios-arrow-back"></button>
+  <h1 id="loadingMessage" class="title">Loading ...</h1>
+  <h1 id="title" class="title">Title</h1>
+
+  <button onclick="World.showHelp()" id="helpbtn"
+          class=" navbutton button button-icon icon ion-ios-help-outline">
+  </button>
+
+  <div id="help" class="bar bar-subheader" style="display: none">
+    <h2 class="title item-text-wrap">Hold your device steady and point it at the camera tracker.</h2>
+  </div>
+</nav>
+
+</body>
+</html>

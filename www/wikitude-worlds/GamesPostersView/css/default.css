@@ -1,0 +1,65 @@
+.info {
+  font-size: large;
+  position: absolute;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #BBBBBB;
+  text-align: center;
+  left: 0;
+  opacity: 0.7;
+  display: table;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  font-size: large;
+  position: absolute;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #BBBBBB;
+  text-align: center;
+  left: 0;
+  opacity: 0.7;
+  bottom: 0;
+}
+
+#backbtn {
+  position: absolute;
+  background-color: #0000000;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  max-width: 38px;
+}
+
+#helpbtn{
+  position: absolute;
+  background-color: #0000000;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  max-width: 38px;
+}
+
+#help{
+  position: absolute;
+  background-color: #BBBBBB;
+  top: 50px;
+  opacity: 0.7;
+
+  font-size: large;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.nualapic {
+  max-width: 50px;
+  max-height: 50px;
+}

@@ -1,7 +1,6 @@
 var World = {
   loaded: false,
   trackableVisible: false,
-  resourcesLoaded: false,
 
   init: function initFn() {
     this.createOverlays();
@@ -61,42 +60,6 @@ var World = {
       }
     });
 
-    /*
-     this.animationDoorL = new AR.ModelAnimation(this.model, "DoorOpenL_animation");
-     this.animationDoorR = new AR.ModelAnimation(this.model, "DoorOpenR_animation");
-     this.animationEngine = new AR.ModelAnimation(this.model, "EngineWindow_animation");
-     this.animationHood = new AR.ModelAnimation(this.model, "Trunkopen_animation");
-
-     this.model.onClick = function (drawable, model_part) {
-     switch (model_part) {
-     case 'WindFL':
-     case 'DoorL[0]':
-     case 'DoorL[1]':
-     case 'DoorL[2]':
-     case 'DoorL[3]':
-     World.animationDoorL.start();
-     break;
-
-     case 'WindFR':
-     case 'DoorR[0]':
-     case 'DoorR[1]':
-     case 'DoorR[2]':
-     case 'DoorR[3]':
-     World.animationDoorR.start();
-     break;
-
-     case 'Rear[0]':
-     case 'Rear[1]':
-     case 'WindR1[0]':
-     case 'WindR1[1]':
-     World.animationEngine.start();
-     break;
-
-     case 'Hood':
-     World.animationHood.start();
-     break;
-     }
-     }*/
 
     this.animationLense = new AR.ModelAnimation(this.model, "Scene");
 
@@ -156,6 +119,7 @@ var World = {
       document.getElementById('loadingMessage').innerHTML =
         "<div" + cssDivLeft + "><img src='assets/car.png'/></div>" +
         "<div" + cssDivRight + ">Scan the camera to learn how to change the lense</div>";
+
     }
   },
 
@@ -189,24 +153,6 @@ var World = {
   },
   disappear: function disappearFn() {
     World.trackableVisible = false;
-  },
-
-  resetModel: function resetModelFn() {
-    World.model.rotate.z = 0;
-  },
-
-  closeScreen: function closeScreenFn() {
-    document.location = "architectsdk://closeScreen";
-  },
-
-  showHelp: function showHelpFn() {
-    var help = document.getElementById('help');
-    if (help.style.display === 'none') {
-      help.style.display = 'block';
-    } else {
-      help.style.display = 'none';
-    }
-
   }
 };
 
