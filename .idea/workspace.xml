@@ -2,70 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/bis-morgen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/food.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/jellybeans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/next-year.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/tracker.wtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/welcome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/bis-morgen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/food.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/jellybeans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/next-year.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/tracker.wtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/welcome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/bis-morgen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/food.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/jellybeans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/next-year.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/tracker.wtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/welcome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/dynamicAgenda.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/css/dynamicAgenda.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/js/GamesPostersView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/js/closescreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/dynamicAgenda.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/ios-arrow-back.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/assets/ios-help-outline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/css/dynamicAgenda.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/js/GamesPostersView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/_LearningModuleTemplate/js/closescreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/common-assets/js/closescreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/dynamicAgenda.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/ios-arrow-back.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/assets/ios-help-outline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/dynamicAgenda.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/js/GamesPostersView.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/D90-animated-test.wt3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/D90-animated.wt3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/D90-test-aus-SLT_animated-4.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/camera-with-lense.wt3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d3300-tn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d3300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d3400-tn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d3400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d5200-tn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d5200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d7500-tn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-assets/d7500.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/_common-assets/AR-js/all-views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/ade.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/AR-View-assets/ios-arrow-back.svg" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/ios-arrow-back.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/AR-View-assets/ios-help-outline.svg" afterPath="$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/assets/ios-help-outline.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/js/imagerecognitionand3d.js" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/js/imagerecognitionand3d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/common-assets/css/default.css" afterPath="$PROJECT_DIR$/www/wikitude-worlds/common-assets/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/default.css" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/index.html" afterPath="$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,7 +30,7 @@
     <favorites_list name="ARUA" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63137996">
+    <splitter split-orientation="horizontal" split-proportion="0.78488016">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -108,7 +49,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
+                <state relative-caret-position="455">
                   <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="96" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -118,41 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-854">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ionic.app.min.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/css/ionic.app.min.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="0" column="2184" lean-forward="true" selection-start-line="0" selection-start-column="2184" selection-end-line="0" selection-end-column="2184" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ionic.app.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/css/ionic.app.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+                <state relative-caret-position="476">
+                  <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -163,8 +74,8 @@
           <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/common-assets/css/default.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+                <state relative-caret-position="527">
+                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -209,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2d_</find>
       <find>'2d_tracking'</find>
       <find>IR&quot;</find>
       <find>FeatureGeo</find>
@@ -239,6 +149,7 @@
       <find>helppic</find>
       <find>light</find>
       <find>nav</find>
+      <find>position</find>
     </findStrings>
     <replaceStrings>
       <replace>D5200-</replace>
@@ -400,6 +311,32 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="myFirstARWorld">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ARUA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="www">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wikitude-worlds">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myFirstARWorld">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -815,7 +752,7 @@
       <workItem from="1498846367761" duration="6371000" />
       <workItem from="1499073189550" duration="3219000" />
       <workItem from="1499088561571" duration="7066000" />
-      <workItem from="1499098831162" duration="9777000" />
+      <workItem from="1499098831162" duration="11820000" />
     </task>
     <task id="LOCAL-00001" summary="ar view opens">
       <created>1494103008720</created>
@@ -849,7 +786,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199048000" />
+    <option name="totallyTimeSpent" value="201091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,7 +799,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14278187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -870,18 +807,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982143" sideWeight="0.26149303" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48946258" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48998946" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12012645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22408026" sideWeight="0.738507" order="9" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22408026" sideWeight="0.738507" order="9" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1226,28 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/js/GamesPostersView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1255,14 +1170,6 @@
           <folding>
             <element signature="e#145#1076#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-854">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,22 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/common-assets/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1306,10 +1197,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-854">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/GamesPostersView/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/common-assets/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/wikitude-worlds/myFirstARWorld/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="476">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
