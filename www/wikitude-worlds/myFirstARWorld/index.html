@@ -18,16 +18,18 @@
 
 <body>
 
-<nav id="nav" class="bar bar-header bar-positive">
+<nav id="nav" class="bar bar-header bar-energized">
 
-  <button onclick="World.closeScreen()" id="backbtn" class=" navbutton button button-icon icon ion-ios-arrow-back"></button>
+  <button onclick="World.closeScreen()" id="backbtn"
+          class=" navbutton button button-icon icon ion-ios-arrow-back"></button>
   <h1 id="loadingMessage" class="title">Loading ...</h1>
   <h1 id="title" class="title">Title</h1>
-  <a onclick="World.showHelp()">
-  <button id="helpbtn" class="navbutton button button-icon icon ion-ios-help-outline"></button>
-</a>
+
+  <button onclick="World.showHelp()" id="helpbtn"
+          class="navbutton button button-icon icon ion-ios-help-outline"></button>
+
   <div id="help" class="bar bar-subheader" style="display: none">
-    <h2 class="title item-text-wrap">Hold your device steady and point it at the camera tracker.</h2>
+    <h2 id="helptitle" class="title">Hold your device steady and point it at the camera tracker.</h2>
   </div>
 
 </nav>
