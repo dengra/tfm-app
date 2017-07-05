@@ -68,10 +68,8 @@ div.__OVERLAY__mainDiv{
 .bottom {
   font-size: large;
   position: absolute;
-  width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #BBBBBB;
   text-align: center;
   left: 0;
   opacity: 0.7;
@@ -121,7 +119,7 @@ div.__OVERLAY__mainDiv{
 
 /*Ionic CSS Eigenschaften überschreiben*/
 
-#nav .button:after {
+.button:after {
   position: absolute;
   top: 0px;
   right: 0px;

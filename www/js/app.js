@@ -37,7 +37,7 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
           //  document.location = architectsdk://captureScreen
            Ionicitude
             .addAction(closeScreen)
-            .addAction(showHelp);
+          /*This function showHelp is only needed to work within the AR View, so it´s defined in the all-views.js*/
           //   .addAction(captureScreen)
           //   .addAction(markerselected);
 
@@ -46,22 +46,13 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
           console.log("Hu-ho..! Something has failed !", error);
         });
 
+      /*This function needs to be defined outside of the World.js because it´s closing the Ionicitude Service,
+       so it needs to be closed from outside, from the Ionic / Angular environment */
       function closeScreen(service) {
         console.log('closeScreen accessed');
-        // testMe();
         service.close()
       }
 
-      function showHelp(service) {
-        var help = document.getElementById('help');
-        if (help.style.display === 'none') {
-          help.style.display = 'block';
-        } else {
-          help.style.display = 'none';
-        }
-        console.log("holi from app.js");
-        // service.close()
-      }
     });
   })
   .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {

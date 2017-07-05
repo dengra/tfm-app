@@ -10,5 +10,14 @@ var World = {
     } else {
       help.style.display = 'none';
     }
+  },
+
+  nextStep: function nextStepFn() {
+    var help = document.getElementById('help');
+    if (help.style.display === 'none') {
+      help.style.display = 'block';
+    } else {
+      help.style.display = 'none';
+    }
   }
 };
