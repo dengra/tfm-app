@@ -66,4 +66,4 @@ var World = {
   }
 };
 
-World.init();
+World.init(); // Die World Variable muss am Ende jeder inkludierten JavaScript Datei initiiert werden, sodass alle Funktionen im Scope verfügbar sind.

@@ -3,37 +3,62 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta content="width=device-width,initial-scale=1, maximum-scale=5, user-scalable=yes" name="viewport">
+  <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
 
-  <title></title>
+  <title>AR View</title>
 
+  <!--Wikitude Architecture-->
   <script src="architect://architect.js"></script>
   <script type="text/javascript" src="../common-assets/ade.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="../../css/ionic.app.min.css">
   <link rel="stylesheet" href="../common-assets/css/default.css">
+  <!--JS-->
   <script src="js/imagerecognitionand3d.js"></script>
-  <script src="../common-assets/js/all-views.js"></script>
+  <script type="text/javascript" src="../common-assets/js/all-views.js"></script>
 </head>
-
-
 <body>
-<nav class="nav">
-  <div id="loadingMessage" class="info">Loading ...</div>
-  <!--<div id="start" class="button">start animation</div>-->
 
-  <div id="backbtn">
-    <a href='javascript: World.closeScreen();'>
-      <img src="../common-assets/UI-assets/ios-arrow-back.svg" style="max-width: 50px; max-height: 50px;"/>
-    </a>
+<!--Navigationsbar-->
+<nav id="nav" class="bar bar-header bar-energized">
+  <!--Nav Menu Back Button Left -->
+  <button id="backbtn"
+          class=" navbutton button button-icon icon ion-ios-arrow-back"
+          onclick="World.closeScreen()" ></button>
+
+  <h1 id="loadingMessage" class="title">Loading ...</h1>
+  <h1 id="title" class="title">D90 Exchanging the camera</h1>
+
+  <!--Nav Menu Back Button Right -->
+  <button id="helpbtn"
+          class="navbutton button button-icon icon ion-ios-help-outline"
+          onclick="World.showHelp()"></button>
+
+  <!--Help Container-->
+  <div id="help" class="bar bar-subheader" style="display: none">
+    <h2 id="helptitle" class="title">Hold your device steady and point it at the camera tracker.</h2>
   </div>
+</nav><!--Navigationsbar Ende-->
 
-  <div id="helpbtn">
-    <a href="javascript: World.showHelp();">
-      <img class="helppic" src="../common-assets/UI-assets/ios-help-outline.svg"/>
-    </a>
-  </div>
+<!--footer navbar-->
+<!--
+<nav class="footer bar bar-footer bar-energized"
+     style="bottom: 0;  width: 100%">
 
-  <div id="help" style="display: none">Hold your camera steady and point it at one of our Smart Posters.</div>
+  <button id="placeholderbtn"
+          class="button button-icon ion-android-settings button-clear"
+          onclick="World.nextStep()"></button>
+  <button id="backward"
+          class="button button-icon ion-skip-backward "
+          onclick="World.nextStep()"></button>
+  <button id="forward"
+          class="button button-icon ion-skip-forward "
+          onclick="World.nextStep()"></button>
+  <button id="nextstep"
+          class="button button-icon ion-play"
+          onclick="World.nextStep()"></button>
 </nav>
+-->
 
 </body>
 </html>
