@@ -117,8 +117,9 @@ var World = {
       var cssDivLeft = " style='display: table-cell;vertical-align: middle; text-align: right; width: 20%; padding-right: 15px;'";
       var cssDivRight = " style='display: table-cell;vertical-align: middle; text-align: left; width: 50%; '";
       document.getElementById('loadingMessage').innerHTML =
-        "<div" + cssDivLeft + "><img src='assets/car.png'/></div>" +
-        "<div" + cssDivRight + ">Scan the camera to learn how to change the lense</div>";
+        "<div" + cssDivLeft + "></div>"
+        // "<div" + cssDivLeft + "><img src='../common-assets/AR-assets/.png'/></div>" +
+        // "<div" + cssDivRight + ">Scan the camera to learn how to change the lense</div>";
 
     }
   },
@@ -142,13 +143,14 @@ var World = {
     return new AR.AnimationGroup(AR.CONST.ANIMATION_GROUP_TYPE.PARALLEL, [sx, sy, sz]);
   },
 
-  appear: function appearFn() {
+  appear: function appearFn()   {
     World.removeLoadingBar();
     World.trackableVisible = true;
     if (World.loaded) {
       // Resets the properties to the initial values.
-      World.resetModel();
+      // World.resetModel();
       World.appearingAnimation.start();
+      UIController.testMe()
     }
   },
   disappear: function disappearFn() {

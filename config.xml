@@ -10,6 +10,7 @@
   <allow-navigation href="http://10.182.92.114:8100"/>
   <allow-navigation href="http://10.30.239.133:8100"/>
   <allow-navigation href="http://10.182.92.114:8101"/>
+  <allow-navigation href="http://192.168.43.20:8100"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>

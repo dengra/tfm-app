@@ -14,7 +14,7 @@ var World = {
 
      Adding multiple targets to a target collection is straightforward. Simply follow our Target Management Tool documentation. Each target in the target collection is identified by its target name. By using this target name, it is possible to create an AR.ImageTrackable for every target in the target collection.
      */
-    this.tracker = new AR.ClientTracker("assets/tracker.wtc", {
+    this.targetCollectionResource = new AR.TargetCollectionResource("assets/tracker.wtc", {
       onLoaded: this.worldLoaded
     });
 
@@ -23,10 +23,6 @@ var World = {
       {uri: "assets/dynamicAgenda.html"},
       0.7,//0.6,
       {
-        /*Server*/
-        onLoaded: function () {
-          uri: "http://178.62.10.141:4000/dynamicAgenda.html"
-        },
         zOrder: 2,
         viewportWidth: 412,
         viewportHeight: 582,
@@ -38,14 +34,14 @@ var World = {
         clickThroughEnabled: false,
         allowDocumentLocationChanges: false
       });
-    agendaWidget.uri = "http://178.62.10.141:4000/";
+    // agendaWidget.uri = "http://178.62.10.141:4000/";
 
     /*  This combines everything by creating an AR.ImageTrackable with the previously created tracker, the name of the image target as defined in the target collection and the drawable that should augment the recognized image.
      //
      //**********POSTER TRACKER 1*/
     var pageOne = new AR.ImageTrackable(this.tracker, "puzzle", {
       drawables: {
-        cam: [agendaWidget]
+        cam: agendaWidget
       }
     });
     //*****************POSTER ONE END**************************//

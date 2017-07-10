@@ -22,11 +22,11 @@
   <!--Nav Menu Back Button Left -->
   <button id="backbtn"
           class=" button button-icon ion-ios-arrow-back"
-          onclick="World.closeScreen()"></button>
+          onclick="UIController.closeScreen()"></button>
 
   <!--   <button id="settingsbtn"
              class="button button-icon ion-android-settings "
-             onclick="World.showARNavBar()"></button>-->
+             onclick="UIController.showARNavBar()"></button>-->
 
   <h1 id="loadingMessage" class="title">Loading ...</h1>
   <h1 id="title" class="title">Title</h1>
@@ -34,7 +34,7 @@
   <!--Nav Menu Back Button Right -->
   <button id="helpbtn"
           class="navbutton button button-icon icon ion-ios-help-outline"
-          onclick="World.showHelp()"></button>
+          onclick="UIController.showHelp()"></button>
 
   <!--Help Container-->
   <div id="helpDiv" class="bar bar-subheader" style="display: none">
@@ -49,13 +49,13 @@
 
   <button id="backward"
           class="button button-icon ion-skip-backward "
-          onclick="World.formerStep()"></button>
+          onclick="UIController.formerStep()"></button>
   <button id="forward"
           class="button button-icon ion-skip-forward "
-          onclick="World.nextStep()"></button>
+          onclick="UIController.nextStep()"></button>
   <button id="nextstep"
           class="button button-icon ion-play"
-          onclick="World.startAnimation()"></button>
+          onclick="UIController.startAnimation()"></button>
 </nav>
 
 </body>

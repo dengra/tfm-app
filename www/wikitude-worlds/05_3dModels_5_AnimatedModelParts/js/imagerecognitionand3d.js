@@ -14,7 +14,7 @@ var World = {
 			Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
 			Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
 		*/
-		this.targetCollectionResource = new AR.TargetCollectionResource("assets/cameras-tracker.wtc", {
+		this.targetCollectionResource = new AR.TargetCollectionResource("assets/tracker.wtc", {
 			onLoaded: function () {
 				World.resourcesLoaded = true;
 				this.loadingStep;
@@ -177,7 +177,7 @@ var World = {
 
 	resetModel: function resetModelFn() {
 		World.model.rotate.z = -25;
-	}
+	},
 
 };
 

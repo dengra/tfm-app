@@ -1,4 +1,4 @@
-var World = {
+var UIController = {
   closeScreen: function closeScreenFn() {
     document.location = "architectsdk://closeScreen";
   },
@@ -46,7 +46,11 @@ var World = {
     } else {
       step.style.display = 'none';
     }
+  },
+
+  testMe: function testMeFn() {
+    console.log("UI Controller says Hello");
   }
 };
 
-World.init(); // Die World Variable muss am Ende jeder inkludierten JavaScript Datei initiiert werden, sodass alle Funktionen im Scope verfügbar sind.
+// World.init(); // Die World Variable muss am Ende jeder inkludierten JavaScript Datei initiiert werden, sodass alle Funktionen im Scope verfügbar sind.
