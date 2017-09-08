@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
-  .run(function ($ionicPlatform, Ionicitude) {
+  .run(function ($ionicPlatform, Ionicitude) {//Starten der Anwendung
     /*
      $ionicPlatform.registerBackButtonAction(function(e){
      e.preventDefault();
@@ -37,17 +37,12 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
           //  document.location = architectsdk://captureScreen
            Ionicitude
             .addAction(closeScreen)
-          /*This function showHelp is only needed to work within the AR View, so it´s defined in the all-views.js*/
-          //   .addAction(captureScreen)
-          //   .addAction(markerselected);
-
         })
         .catch(function (error) {
           console.log("Hu-ho..! Something has failed !", error);
         });
 
-      /*This function needs to be defined outside of the World.js because it´s closing the Ionicitude Service,
-       so it needs to be closed from outside, from the Ionic / Angular environment */
+      /*This function needs to be defined outside of the World.js because it´s closing the Ionicitude Service, so it needs to be closed from outside, from the Ionic/Angular environment */
       function closeScreen(service) {
         console.log('closeScreen accessed');
         service.close()
@@ -55,8 +50,11 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
 
     });
   })
-  .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+  .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) { //Konfiguration der Positionierung der Tabs und dann der Zustände der App bzw. App-Navigation
     $ionicConfigProvider.tabs.position('bottom'); //setzt die Tabs unten in der App
+    // Standardroute definieren
+    $urlRouterProvider.otherwise('/tab/home');
+
     $stateProvider //konfiguriert die "States" der App, das Routing, die Templates, die Tabs und die Beziehung zu einander
       .state('tabs', {
         url: '/tab',
@@ -85,7 +83,7 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
       })
 
       .state('tabs.detail', {
-        url: '/list/:mId',
+        url: '/list/:mId',       //Anhand des State wird eine ID vergeben
         views: {
           'list-tab': {
             templateUrl: 'templates/detail.html',
@@ -99,7 +97,7 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
         views: {
           'learning-map-tab': {
             templateUrl: 'templates/learning-map.html',
-            controller: 'LearningMapController'
+            controller: 'ListController'
           }
         }
       })
@@ -121,11 +119,11 @@ angular.module('starter', ['ionic', 'ionicitude-module', 'angular.filter'])
         }
       });
 
-    $urlRouterProvider.otherwise('/tab/home');
   })
   .controller('ListController', ['$scope', '$http', '$state',
     function ($scope, $http, $state) {
       $http.get('js/data.json').success(function (data) {
+        // Die Daten werden aus der data.json Datei geladen und in den Scope gespeichert in eine „modules“ Variable
         $scope.modules = data.modules;
         $scope.whichmodule = $state.params.mId;
         $scope.cameras = data.cameras;

@@ -47,9 +47,9 @@
       </div>
       <select  ng-model="selectCamera" ng-init="selectCamera=''">
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
-        <option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+        <!--<option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>-->
         <!--<option>-------------</option>-->
-        <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
+        <option ng-repeat='camera in cameras' >{{camera.shortname}}</option><!--ng-show="camera.format == 'FX'"-->
       </select>
     </label>
 
@@ -115,13 +115,13 @@
         <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
-        <ul ng-show="module.relevantmodels">
-          <!--DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE-->
+       <!-- <ul ng-show="module.relevantcameras">
+          &lt;!&ndash;DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE&ndash;&gt;
           <p>This course is available for Cameras: </p>
-          <li ng-repeat="relevantmodel in module.relevantmodels">
+          <li ng-repeat="relevantmodel in module.relevantcameras">
             <p>{{relevantmodel | uppercase }}</p>
           </li>
-        </ul><!--DELETE AFTER DEVELOPMENT ENDE-->
+        </ul>--><!--DELETE AFTER DEVELOPMENT ENDE-->
         <ion-reorder-button class="ion-navicon"
                             on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
 

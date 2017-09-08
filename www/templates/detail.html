@@ -48,27 +48,31 @@
 
       <ol ng-show="module.steps"> <!--Procedure with Steps -->
         <h3>
-          <i class="ion-ios-list-outline"></i> Procedure:</h3>
+          <i class="ion-ios-list-outline"></i>Procedure:</h3>
         <li ng-repeat="step in module.steps">
           <p>{{$index +1}}. {{step}}</p>
         </li>
       </ol><!--Procedure with Steps Ende -->
 
       <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
-      <ul ng-show="module.relevantcameras"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantcameras exists in the data model-->
-        <h3>This module is available for Cameras: </h3>
-        <li ng-repeat="relevantcamera in module.relevantcameras">
-          <p><b>{{relevantcamera | uppercase }}</b></p>
-        </li>
-      </ul>
+      <!--
+            <ul ng-show="module.relevantcameras">&lt;!&ndash;This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantcameras exists in the data model&ndash;&gt;
+              <h3>This module is available for Cameras: </h3>
+              <li ng-repeat="relevantcamera in module.relevantcameras">
+                <p><b>{{relevantcamera | uppercase }}</b></p>
+              </li>
+            </ul>
+      -->
 
       <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantcameras"-->
       <!--MODEL in RELEVANTCAMERAS-->
 
+      <!--AR-Button-->
       <button class="button button-block button-positive ion-ios-world-outline"
               ng-click="launchAR('{{module.ARView.URL}}')">
         360° View
-      </button>
+      </button>      <!--AR-BUTTON ENDE-->
+
     </ion-item>
   </ion-content>
 </ion-view>
