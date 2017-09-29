@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0ccd7f9-f033-48b6-b48e-06d4545b5c24" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/assets/car.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/assets/car_animated.wt3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/assets/rotateButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/assets/tracker.wtc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/05_3dModels_5_AnimatedModelParts/js/imagerecognitionand3d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/assets/indi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/assets/marker_idle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/assets/marker_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/images/icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/jquery-mobile-transparent-ui-overlay.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/jquery.mobile-1.3.2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/jquery/jquery.mobile-1.3.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/js/fromwebservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/wikitude-worlds/07_ObtainPoiData_3_FromWebservice/js/marker.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic.config.json" afterPath="$PROJECT_DIR$/ionic.config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html" afterPath="$PROJECT_DIR$/www/wikitude-worlds/D90-exchange-lense/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/wikitude-worlds/common-assets/js/all-views.js" afterPath="$PROJECT_DIR$/www/wikitude-worlds/common-assets/js/all-views.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -749,7 +722,7 @@
       <workItem from="1506265208764" duration="599000" />
       <workItem from="1506410114549" duration="1433000" />
       <workItem from="1506695869666" duration="374000" />
-      <workItem from="1506696267754" duration="156000" />
+      <workItem from="1506696267754" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="ar view opens">
       <created>1494103008720</created>
@@ -783,7 +756,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270701000" />
+    <option name="totallyTimeSpent" value="271471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,10 +774,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14129059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12374582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20982143" sideWeight="0.26149303" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.48998946" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.48998946" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21548998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21248916" sideWeight="0.738507" order="9" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5420642" sideWeight="0.738507" order="9" side_tool="false" content_ui="tabs" x="1921" y="133" width="1892" height="839" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
