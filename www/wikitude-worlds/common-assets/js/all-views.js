@@ -20,6 +20,7 @@ var UIController = {
       helpDiv.style.display = 'none';
     }
   },
+/*
 
   formerStep: function formerStepFn() {
     var step = document.getElementById('step');
@@ -47,6 +48,7 @@ var UIController = {
       step.style.display = 'none';
     }
   },
+*/
 
   testMe: function testMeFn() {
     console.log("UI Controller says Hello");
