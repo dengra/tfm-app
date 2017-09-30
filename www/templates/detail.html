@@ -42,12 +42,13 @@
     <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
     <ion-item class="item-text-wrap"
               ng-repeat="module in modules | filter: { shortname: whichmodule }">
-      <h1> {{ module.title }}</h1>
+      <h2> {{ module.title }}</h2>
       <ion-item>
-        <h2>Camera: {{ module.relevantcameras[0] }}</h2>
-        <h2>Required Skill level:
+        <h3>Camera: {{ module.relevantcameras[0] }}</h3>
+        <h3>Required Skill level:
           <img ng-src="img/{{module.level}}-tn.png" alt="{{module.level | uppercase}}" style="max-height: 25px">
-        </h2>
+        </h3>
+
       </ion-item>
 
       <ion-item>
@@ -74,7 +75,7 @@
       <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantcameras"-->
       <!--MODEL in RELEVANTCAMERAS-->
 
-      <button ng-if="module.ARView.URL"  class="button button-full icon-right button-positive ion-ios-world-outline"
+      <button ng-if="module.ARView.URL"  class="button button-full icon-right button-dark ion-ios-world-outline"
               ng-click="launchAR('{{module.ARView.URL}}')">
         View in Augmented Reality
       </button>

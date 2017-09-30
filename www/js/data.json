@@ -63,7 +63,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "D3200-getting-started",
+        "URL": "",
         "needs": [
           {"camera": "front"},
           {"type": "image_tracking"}
@@ -613,7 +613,7 @@
       }
     },
     {
-      "title": "Detaching the lense for your Camera",
+      "title": "Detaching the lense of your camera",
       "level": "advanced",
       "shortname": "D90-exchange-lense",
       "relevantcameras": [

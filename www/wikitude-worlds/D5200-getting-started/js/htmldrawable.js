@@ -41,8 +41,8 @@ var World = {
      For each target an AR.ImageDrawable for the button is created by utilizing the helper function createWwwButton(url, options). The returned drawable is then added to the drawables.cam array on creation of the AR.Trackable2DObject.
      */
     var pageOneButton = this.createWwwButton("http://www.lauradengra.com/agenda.html", 0.1, {
-      offsetX: -0,
-      offsetY: 0.25,
+      offsetX: 0,
+      offsetY: 0,
       zOrder: 1,
       enabled:true
     });

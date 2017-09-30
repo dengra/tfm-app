@@ -1,7 +1,8 @@
 /* Empty. Add your own CSS if you like */
 
 body {
-  cursor: url('http://ionicframework.com/img/finger.png');
+  /*cursor: url('http://ionicframework.com/img/finger.png');*/
+
 }
 
 /*
@@ -11,7 +12,7 @@ body {
 */
 
 .splash {
-  /*background: url(../img/skyline.jpg) no-repeat center center fixed;*/
+  background: url(../img/skyline.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,6 +25,7 @@ body {
   margin: 0 auto;
   margin-top: 33%;
   text-align: center;
+  color: #f8f8f8;
 }
 /*
 
@@ -31,46 +33,31 @@ body {
   font-size: 1.4rem;
 }
 */
-/*
 
 .branding p {
   margin-top: 10px;
   font-size: 1rem;
 }
-*/
-/*
 .item-divider {
-  background-color: #EEE8D6;
-}*/
+  background-color: #f8f8f8;
+}
 /*
 .bar-positive, .tabs-positive>.tabs {
   background-color: #417D9A !important;
   border-color:  #417D9A;
 }*/
-/*
 .item-thumbnail-left img {
   border-radius: 00px;
-}*/
+}
 .item h3 {
-  /*font-size: 1.2rem;*/
-  font-weight: bold;
-  color: #0c63ee;
+  font-size: 1.0rem;
+  /*font-weight: bold;*/
+  /*color: #0c63ee;*/
 }
 .item h2 {
-  /*font-size: 1.2rem;*/
-  font-weight: bold;
-  color: #0c63ee;
-}
-
-.dayhighlight {
-  background-color: #9EC6DE;
-  border-top: 20px solid #0c63ee;
-}
-
-.dayhighlight h2 {
-  color: #0c63ee;
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 1.8rem;
+  /*font-weight: bold;*/
+  /*color: #0c63ee;*/
 }
 
 .platform-android .bar-subheader  {
@@ -78,5 +65,5 @@ body {
 }
 
 .platform-android  .has-subheader{
-  color: rebeccapurple;
+  /*color: rebeccapurple;*/
 }

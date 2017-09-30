@@ -47,8 +47,9 @@
       </div>
       <select  ng-model="selectCamera" ng-init="selectCamera='D90'">
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
+        <option>-- DX Series:</option>
         <option  ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-        <option>-------------</option>
+        <option>-- FX Series:</option>
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
       </select>
     </label>
@@ -109,11 +110,18 @@
               show-reorder="data.showReorder">
 
       <ion-item ng-repeat='module in modules | filter: selectCamera | filter: selectModule'
-                class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
-        <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
-        <h2>{{module.relevantcameras[0] | uppercase }} {{module.title}}</h2>
+                class=" item-thumbnail-right item-icon-right item-text-wrap" href="#/tab/list/{{module.shortname}}">
+        <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}" style="width: 60px; height: auto">
+        <h3>{{module.relevantcameras[0] | uppercase }} {{module.title}}</h3>
         <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
+        <button ng-if="module.ARView.URL"
+                class="button button-clear button-dark"
+                ng-click="launchAR('{{module.ARView.URL}}')">
+          -- AR View available --
+        </button>
+
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
+
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
         <ul ng-show="module.relevantmodels">
           <!--DISPLAY ONLY IF RELEVANT CAMERA MODELS AVAILABLE-->
@@ -123,7 +131,8 @@
           </li>
         </ul><!--DELETE AFTER DEVELOPMENT ENDE-->
         <ion-reorder-button class="ion-navicon"
-                            on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
+                            on-reorder="moveItem(module, $fromIndex, $toIndex)">
+        </ion-reorder-button>
 
         <!--Buttons with Dynamic AR content-->
         <ion-option-button ng-if="module.ARView.URL" ng-click="launchAR('{{module.ARView.URL}}')"

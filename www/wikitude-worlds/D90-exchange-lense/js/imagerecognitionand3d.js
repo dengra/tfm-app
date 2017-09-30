@@ -65,10 +65,10 @@ var World = {
 
     this.model.onClick = function (drawable, model_part) {
       switch (model_part) {
-
         case 'LenseReleaseButtonBase'://model part name
         case 'LenseReleaseButton':
         case 'Lense':
+        case 'Body':
         case 'NikonText':
           World.animationLense.start();
           break;
