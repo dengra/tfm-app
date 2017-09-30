@@ -42,10 +42,17 @@
     <!--DETAIL VIEW showing WHICH Learning Modules--> <!--TODO ITEM AVATAR  ng-class="'item-avatar':module.level"-->
     <ion-item class="item-text-wrap"
               ng-repeat="module in modules | filter: { shortname: whichmodule }">
-      <h2>{{ module.title }}</h2>
-      <!--<img ng-src="img/{{module.level}}-tn.png" alt="{{ module.title }} {{module.level | uppercase}}" style="max-height: 50px">-->
-      <p>{{ module.description }}</p>
+      <h1> {{ module.title }}</h1>
+      <ion-item>
+        <h2>Camera: {{ module.relevantcameras[0] }}</h2>
+        <h2>Required Skill level:
+          <img ng-src="img/{{module.level}}-tn.png" alt="{{module.level | uppercase}}" style="max-height: 25px">
+        </h2>
+      </ion-item>
 
+      <ion-item>
+      <p>{{ module.description }}</p>
+      <!--<img ng-src="../img/{{module.task-image}}.png" alt="Bild0"/>-->
       <ol ng-show="module.steps"> <!--Procedure with Steps -->
         <h3>
           <i class="ion-ios-list-outline"></i> Procedure:</h3>
@@ -53,22 +60,25 @@
           <p>{{$index +1}}. {{step}}</p>
         </li>
       </ol><!--Procedure with Steps Ende -->
+        <img ng-src="img/{{module.topicImage}}.png" alt="{{module.topicImage | uppercase}}" style="max-height: 100px">
 
+      </ion-item>
       <!--TODO MAYBE: FILTER NACH METADATEN ZU DEN RELEVANTEN PRODUKTVARIANTEN -->
-      <ul ng-show="module.relevantcameras"><!--This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantcameras exists in the data model-->
+<!--      <ul ng-show="module.relevantcameras">&lt;!&ndash;This the ng-show directive (aka customized attribute) makes the UL only show if module.relevantcameras exists in the data model&ndash;&gt;
         <h3>This module is available for Cameras: </h3>
         <li ng-repeat="relevantcamera in module.relevantcameras">
           <p><b>{{relevantcamera | uppercase }}</b></p>
         </li>
-      </ul>
+      </ul>-->
 
       <!--TODO: launchAR() nach dynamischen Metadaten aus selektierten model (WHICHMODEL) in "modules.module.relevantcameras"-->
       <!--MODEL in RELEVANTCAMERAS-->
 
-      <button class="button button-block button-positive ion-ios-world-outline"
+      <button ng-if="module.ARView.URL"  class="button button-full icon-right button-positive ion-ios-world-outline"
               ng-click="launchAR('{{module.ARView.URL}}')">
-        360° View
+        View in Augmented Reality
       </button>
+
     </ion-item>
   </ion-content>
 </ion-view>

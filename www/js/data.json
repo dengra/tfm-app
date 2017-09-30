@@ -51,7 +51,7 @@
     {
       "title": "Get Started with your camera",
       "level": "beginner",
-      "shortname": "getting-started",
+      "shortname": "D3200-getting-started",
       "relevantcameras": [
         "D3200"
       ],
@@ -73,7 +73,7 @@
     {
       "title": "Get Started with your camera",
       "level": "beginner",
-      "shortname": "getting-started",
+      "shortname": "D3300-getting-started",
       "relevantcameras": [
         "D3300"
       ],
@@ -95,7 +95,7 @@
     {
       "title": "Get Started with your camera",
       "level": "beginner",
-      "shortname": "getting-started",
+      "shortname": "D5200-getting-started",
       "relevantcameras": [
         "D5200"
       ],
@@ -117,7 +117,7 @@
     {
       "title": "Get Started with your camera",
       "level": "beginner",
-      "shortname": "getting-started",
+      "shortname": "D750-getting-started",
       "relevantcameras": [
         "D750"
       ],
@@ -139,7 +139,7 @@
     {
       "title": "Shoot your first picture",
       "level": "beginner",
-      "shortname": "shoot-first-picture",
+      "shortname": "D3200-shoot-first-picture",
       "relevantcameras": [
         "D3200"
       ],
@@ -161,7 +161,7 @@
     {
       "title": "Shoot your first picture",
       "level": "beginner",
-      "shortname": "shoot-first-picture",
+      "shortname": "D3300-shoot-first-picture",
       "relevantcameras": [
         "D3300"
       ],
@@ -183,7 +183,7 @@
     {
       "title": "Shoot your first picture",
       "level": "beginner",
-      "shortname": "shoot-first-picture",
+      "shortname": "D5200-shoot-first-picture",
       "relevantcameras": [
         "D5200"
       ],
@@ -205,7 +205,7 @@
     {
       "title": "Shoot your first picture",
       "level": "beginner",
-      "shortname": "shoot-first-picture",
+      "shortname": "D750-shoot-first-picture",
       "relevantcameras": [
         "D750"
       ],
@@ -227,7 +227,7 @@
     {
       "title": "Main camera components",
       "level": "beginner",
-      "shortname": "main-components",
+      "shortname": "D3200-main-components",
       "relevantcameras": [
         "D3200"
       ],
@@ -249,7 +249,7 @@
     {
       "title": "Main camera components",
       "level": "beginner",
-      "shortname": "main-components",
+      "shortname": "D3300-main-components",
       "relevantcameras": [
         "D3300"
       ],
@@ -271,7 +271,7 @@
     {
       "title": "Main camera components",
       "level": "beginner",
-      "shortname": "main-components",
+      "shortname": "D5200-main-components",
       "relevantcameras": [
         "D5200"
       ],
@@ -293,7 +293,7 @@
     {
       "title": "Main camera components",
       "level": "beginner",
-      "shortname": "main-components",
+      "shortname": "D750-main-components",
       "relevantcameras": [
         "D750"
       ],
@@ -315,7 +315,7 @@
     {
       "title": "Improve your Skills",
       "level": "intermediate",
-      "shortname": "first_intermediate_task",
+      "shortname": "D3200first_intermediate_task",
       "relevantcameras": [
         "D3200"
       ],
@@ -337,7 +337,7 @@
     {
       "title": "Improve your Skills",
       "level": "intermediate",
-      "shortname": "first_intermediate_task",
+      "shortname": "D3300-first_intermediate_task",
       "relevantcameras": [
         "D3300"
       ],
@@ -359,7 +359,7 @@
     {
       "title": "Improve your Skills",
       "level": "intermediate",
-      "shortname": "first_intermediate_task",
+      "shortname": "D5200-first_intermediate_task",
       "relevantcameras": [
         "D5200"
       ],
@@ -381,7 +381,7 @@
     {
       "title": "Improve your Skills",
       "level": "intermediate",
-      "shortname": "first_intermediate_task",
+      "shortname": "D750-first_intermediate_task",
       "relevantcameras": [
         "D750"
       ],
@@ -403,7 +403,7 @@
     {
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
-      "shortname": "shoot-aperture-mode",
+      "shortname": "D3200-shoot-aperture-mode",
       "relevantcameras": [
         "D3200"
       ],
@@ -425,7 +425,7 @@
     {
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
-      "shortname": "shoot-aperture-mode",
+      "shortname": "D3300-shoot-aperture-mode",
       "relevantcameras": [
         "D3300"
       ],
@@ -447,7 +447,7 @@
     {
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
-      "shortname": "shoot-aperture-mode",
+      "shortname": "D5200-shoot-aperture-mode",
       "relevantcameras": [
         "D5200"
       ],
@@ -469,7 +469,7 @@
     {
       "title": "Shoot in 'Aperture Mode'",
       "level": "intermediate",
-      "shortname": "shoot-aperture-mode",
+      "shortname": "D90-shoot-aperture-mode",
       "relevantcameras": [
         "D90"
       ],
@@ -481,7 +481,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "D90-shoot-aperture-mode",
+        "URL": "",
         "needs": [
           {"camera": "front"},
           {"type": "image_tracking"}
@@ -491,7 +491,7 @@
     {
       "title": "Cool complicated task",
       "level": "advanced",
-      "shortname": "first-advanced-task",
+      "shortname": "D5200-first-advanced-task",
       "relevantcameras": [
         "D5200"
       ],
@@ -503,7 +503,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first-advanced-task",
+        "URL": "",
         "needs": [
           {"camera": "front"},
           {"type": "image_tracking"}
@@ -513,7 +513,7 @@
     {
       "title": "Cool complicated task",
       "level": "advanced",
-      "shortname": "first-advanced-task",
+      "shortname": "D90-first-advanced-task",
       "relevantcameras": [
         "D90"
       ],
@@ -525,7 +525,7 @@
         "You´re ready to go :-)"
       ],
       "ARView": {
-        "URL": "first-advanced-task",
+        "URL": "",
         "needs": [
           {"camera": "front"},
           {"type": "image_tracking"}
@@ -613,7 +613,7 @@
       }
     },
     {
-      "title": "Exchange the lense for your Camera",
+      "title": "Detaching the lense for your Camera",
       "level": "advanced",
       "shortname": "D90-exchange-lense",
       "relevantcameras": [
@@ -624,6 +624,7 @@
         "Press the lense release button",
         "Turn the lense 90 degrees clock wise"
       ],
+      "topicImage": "exchange-lense",
       "ARView": {
         "URL": "D90-exchange-lense",
         "needs": [

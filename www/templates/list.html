@@ -45,10 +45,10 @@
       <div class="input-label">
         Camera
       </div>
-      <select  ng-model="selectCamera" ng-init="selectCamera=''">
+      <select  ng-model="selectCamera" ng-init="selectCamera='D90'">
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
-        <option value="" ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
-        <!--<option>-------------</option>-->
+        <option  ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>
+        <option>-------------</option>
         <option ng-repeat='camera in cameras' ng-show="camera.format == 'FX'">{{camera.shortname}}</option>
       </select>
     </label>
@@ -111,7 +111,7 @@
       <ion-item ng-repeat='module in modules | filter: selectCamera | filter: selectModule'
                 class="item-thumbnail-left item-text-wrap" href="#/tab/list/{{module.shortname}}">
         <img ng-src="img/{{module.level}}-tn.png" alt="{{ module.level }}">
-        <h2>{{module.title | uppercase }}</h2>
+        <h2>{{module.relevantcameras[0] | uppercase }} {{module.title}}</h2>
         <p>{{module.description| limitTo: 100}} {{ module.description.length > 100 ? '...' : '' }}</p>
         <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(module)"></ion-delete-button>
         <!--DELETE AFTER DEVELOPMENT - SHOWS RELEVANT PRODUCT MODEL VARIANTS-->
@@ -126,7 +126,7 @@
                             on-reorder="moveItem(module, $fromIndex, $toIndex)"></ion-reorder-button>
 
         <!--Buttons with Dynamic AR content-->
-        <ion-option-button ng-click="launchAR('{{module.ARView.URL}}')"
+        <ion-option-button ng-if="module.ARView.URL" ng-click="launchAR('{{module.ARView.URL}}')"
                            class="icon button-energized outline ion-ios-world-outline">360° View
         </ion-option-button>
 
