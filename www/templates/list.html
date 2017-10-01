@@ -45,7 +45,7 @@
       <div class="input-label">
         Camera
       </div>
-      <select  ng-model="selectCamera" ng-init="selectCamera='D90'">
+      <select  ng-model="selectCamera" ng-init="selectCamera='D5200'">
         <option value="" selected>Select your Camera</option> <!--ng-selected="true" value="" -->
         <option>-- DX Series:</option>
         <option  ng-repeat='camera in cameras' ng-show="camera.format == 'DX'">{{camera.shortname}}</option>

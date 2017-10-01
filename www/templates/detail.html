@@ -43,6 +43,7 @@
     <ion-item class="item-text-wrap"
               ng-repeat="module in modules | filter: { shortname: whichmodule }">
       <h2> {{ module.title }}</h2>
+      <h3>Topic Type: {{ module.topicType }}</h3>
       <ion-item>
         <h3>Camera: {{ module.relevantcameras[0] }}</h3>
         <h3>Required Skill level:
